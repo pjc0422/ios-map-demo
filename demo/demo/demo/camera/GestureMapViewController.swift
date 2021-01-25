@@ -9,28 +9,36 @@
 import gmaps
 
 class GestureMapViewController: BaseViewController {
-    var mapView: GMapView?
     
+    @IBOutlet weak var mapView: GMapView!
     override func viewDidLoad() {
         mapView?.delegate = self
+        self.setNavigationTitle("Gesture")
     }
 }
 
 
 extension GestureMapViewController: GMapViewDelegate {
     func mapView(_ mapView: GMapView!, didTapAt coord: GCoord!) {
-        
+        if let location = GLatLng.value(of: coord) {
+            print("didTap(lat : \(location.lat) lng : \(location.lng)")
+        }
     }
     
     func mapView(_ mapView: GMapView!, didLongPressAt coord: GCoord!) {
-        
+        if let location = GLatLng.value(of: coord) {
+            print("didLongPressAt(lat : \(location.lat) lng : \(location.lng)")
+        }
     }
     
     func mapView(_ mapView: GMapView!, didTap info: GMapLabelInfo!) -> Bool {
+        print("didTap label (labelName : \(String(describing: info.labelName)) uuid : \(String(describing: info.labelId))")
         return false
     }
     
     func mapView(_ mapView: GMapView!, didLongPress info: GMapLabelInfo!) -> Bool {
+        
+        print("didLongPress label (labelName : \(String(describing: info.labelName)) uuid : \(String(describing: info.labelId))")
         return false
     }
     
@@ -46,6 +54,6 @@ extension GestureMapViewController: GMapViewDelegate {
      *  viewpoint.tilt          : 지도의 기울기.
      */
     func mapView(_ mapView: GMapView!, didChange viewpoint: GViewpoint!, withGesture gesture: Bool) {
-        
+        print("{zoom : \(viewpoint.zoom), rotate:\(viewpoint.rotation),tilt:\(viewpoint.tilt )}")
     }
 }

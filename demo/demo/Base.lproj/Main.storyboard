@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V6T-s3-ESd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="V6T-s3-ESd">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -37,7 +37,22 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="baW-tq-LLM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-265" y="-650"/>
+            <point key="canvasLocation" x="1675" y="-1033"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="Ty0-O8-hWE">
+            <objects>
+                <viewController storyboardIdentifier="mapViewCode" id="T3e-Ca-TTg" customClass="MapViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oJH-dP-KPn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Aq6-7W-JCt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQm-Kn-veg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="-1033"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -53,23 +68,23 @@
                                 <color key="sectionIndexBackgroundColor" systemColor="systemGray3Color"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DemoCell" id="RV9-JH-bzo" customClass="DemoCell" customModule="demo" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="41"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="51"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RV9-JH-bzo" id="oxz-YM-Lt4">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="41"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="51"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DemoTitle" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFe-TH-Jr9">
-                                                    <rect key="frame" x="10" y="10" width="394" height="21"/>
+                                                    <rect key="frame" x="10" y="15" width="394" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="UFe-TH-Jr9" secondAttribute="bottom" constant="10" id="JiZ-y7-zfJ"/>
+                                                <constraint firstAttribute="bottom" secondItem="UFe-TH-Jr9" secondAttribute="bottom" constant="15" id="JiZ-y7-zfJ"/>
                                                 <constraint firstAttribute="trailing" secondItem="UFe-TH-Jr9" secondAttribute="trailing" constant="10" id="Yuu-7k-9Xa"/>
-                                                <constraint firstItem="UFe-TH-Jr9" firstAttribute="top" secondItem="oxz-YM-Lt4" secondAttribute="top" constant="10" id="dJh-2u-tDC"/>
+                                                <constraint firstItem="UFe-TH-Jr9" firstAttribute="top" secondItem="oxz-YM-Lt4" secondAttribute="top" constant="15" id="dJh-2u-tDC"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <constraints>
@@ -100,6 +115,36 @@
             </objects>
             <point key="canvasLocation" x="-264" y="61"/>
         </scene>
+        <!--Camera View Controller-->
+        <scene sceneID="0kB-Ma-3ca">
+            <objects>
+                <viewController storyboardIdentifier="cameraMap" id="W5w-8L-jqi" customClass="CameraViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Fe-Kj-rWK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j0K-gt-Z23" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wbJ-Hk-Izn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="j0K-gt-Z23" firstAttribute="centerX" secondItem="wbJ-Hk-Izn" secondAttribute="centerX" id="8O6-VC-7xY"/>
+                            <constraint firstItem="j0K-gt-Z23" firstAttribute="width" secondItem="5Fe-Kj-rWK" secondAttribute="width" id="dUx-90-gJy"/>
+                            <constraint firstItem="j0K-gt-Z23" firstAttribute="centerY" secondItem="wbJ-Hk-Izn" secondAttribute="centerY" id="vUa-mI-89d"/>
+                            <constraint firstItem="j0K-gt-Z23" firstAttribute="height" secondItem="5Fe-Kj-rWK" secondAttribute="height" id="xfl-Ry-Krh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="j0K-gt-Z23" id="RrU-Rt-hvX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rVL-Kn-zdE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="-179"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="bAz-DG-CQN">
             <objects>
@@ -115,6 +160,216 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ReD-SJ-fqw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1407" y="61"/>
+        </scene>
+        <!--Gesture Map View Controller-->
+        <scene sceneID="bXR-Xm-BeQ">
+            <objects>
+                <viewController storyboardIdentifier="gestureMap" id="4Xk-Oo-lcI" customClass="GestureMapViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ibj-Eu-VdA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GOI-kb-WMw" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Nej-Vc-xzt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="GOI-kb-WMw" firstAttribute="width" secondItem="ibj-Eu-VdA" secondAttribute="width" id="1Xq-hF-M1h"/>
+                            <constraint firstItem="GOI-kb-WMw" firstAttribute="centerY" secondItem="Nej-Vc-xzt" secondAttribute="centerY" id="71e-BN-WgW"/>
+                            <constraint firstItem="GOI-kb-WMw" firstAttribute="height" secondItem="ibj-Eu-VdA" secondAttribute="height" id="7Q0-kW-itR"/>
+                            <constraint firstItem="GOI-kb-WMw" firstAttribute="centerX" secondItem="Nej-Vc-xzt" secondAttribute="centerX" id="BHG-g7-2bS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="GOI-kb-WMw" id="5RI-lY-2bL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dBr-rd-oo7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1675" y="-179"/>
+        </scene>
+        <!--Map Layer View Controller-->
+        <scene sceneID="suG-rG-8cJ">
+            <objects>
+                <viewController storyboardIdentifier="layerMap" id="aVa-c0-xMH" customClass="MapLayerViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JUO-4v-saT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NfL-Ah-wM9" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Pdy-Rg-bFq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NfL-Ah-wM9" firstAttribute="centerX" secondItem="Pdy-Rg-bFq" secondAttribute="centerX" id="0R9-Ej-yI6"/>
+                            <constraint firstItem="NfL-Ah-wM9" firstAttribute="width" secondItem="JUO-4v-saT" secondAttribute="width" id="Ao8-5K-dG8"/>
+                            <constraint firstItem="NfL-Ah-wM9" firstAttribute="height" secondItem="JUO-4v-saT" secondAttribute="height" id="b4p-Hr-Onf"/>
+                            <constraint firstItem="NfL-Ah-wM9" firstAttribute="centerY" secondItem="Pdy-Rg-bFq" secondAttribute="centerY" id="ff5-Y8-Pdz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="NfL-Ah-wM9" id="aZN-gv-2kp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TIV-iQ-zsf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="593"/>
+        </scene>
+        <!--Info Window View Controller-->
+        <scene sceneID="tzE-uC-i9y">
+            <objects>
+                <viewController storyboardIdentifier="infoWindowMap" id="XH4-el-oDe" customClass="InfoWindowViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yyu-Fa-PML">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JWb-9w-U42" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="65O-ID-iHo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JWb-9w-U42" firstAttribute="centerX" secondItem="65O-ID-iHo" secondAttribute="centerX" id="MUq-wz-1DH"/>
+                            <constraint firstItem="JWb-9w-U42" firstAttribute="width" secondItem="Yyu-Fa-PML" secondAttribute="width" id="Qji-2J-0i5"/>
+                            <constraint firstItem="JWb-9w-U42" firstAttribute="height" secondItem="Yyu-Fa-PML" secondAttribute="height" id="TzI-ov-pjg"/>
+                            <constraint firstItem="JWb-9w-U42" firstAttribute="centerY" secondItem="65O-ID-iHo" secondAttribute="centerY" id="lY3-p7-lE8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="JWb-9w-U42" id="8Es-2w-pdz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i57-OA-uA8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="874" y="1342"/>
+        </scene>
+        <!--Map Style View Controller-->
+        <scene sceneID="aRg-zD-fMz">
+            <objects>
+                <viewController storyboardIdentifier="themeMap" id="T2z-at-ZNG" customClass="MapStyleViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vUQ-nc-WQV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KMf-AJ-Scb" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="k4B-nV-MF0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KMf-AJ-Scb" firstAttribute="height" secondItem="vUQ-nc-WQV" secondAttribute="height" id="CbL-25-Gnc"/>
+                            <constraint firstItem="KMf-AJ-Scb" firstAttribute="centerY" secondItem="k4B-nV-MF0" secondAttribute="centerY" id="jfA-6F-W5z"/>
+                            <constraint firstItem="KMf-AJ-Scb" firstAttribute="width" secondItem="vUQ-nc-WQV" secondAttribute="width" id="jkr-FW-la0"/>
+                            <constraint firstItem="KMf-AJ-Scb" firstAttribute="centerX" secondItem="k4B-nV-MF0" secondAttribute="centerX" id="wP8-80-XXk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="KMf-AJ-Scb" id="B2N-ug-w6K"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bT2-2Y-8O3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="593"/>
+        </scene>
+        <!--Map Share Overlay View Controller-->
+        <scene sceneID="Y6z-Vz-qhA">
+            <objects>
+                <viewController storyboardIdentifier="shapeOverlayMap" id="1aU-Nm-8FP" customClass="MapShareOverlayViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gfu-rV-Y2i">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cf8-bu-YbK" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hYB-O7-eDs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cf8-bu-YbK" firstAttribute="height" secondItem="gfu-rV-Y2i" secondAttribute="height" id="7yl-Hx-fzr"/>
+                            <constraint firstItem="Cf8-bu-YbK" firstAttribute="width" secondItem="gfu-rV-Y2i" secondAttribute="width" id="85P-Zf-I17"/>
+                            <constraint firstItem="Cf8-bu-YbK" firstAttribute="centerX" secondItem="hYB-O7-eDs" secondAttribute="centerX" id="X8v-BC-jRg"/>
+                            <constraint firstItem="Cf8-bu-YbK" firstAttribute="centerY" secondItem="hYB-O7-eDs" secondAttribute="centerY" id="j0l-bu-k5f"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Cf8-bu-YbK" id="HTK-Bk-eZD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jFg-ZE-U0y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1674" y="1342"/>
+        </scene>
+        <!--Marker View Controller-->
+        <scene sceneID="B5c-SU-W32">
+            <objects>
+                <viewController storyboardIdentifier="markerOVerlayMap" id="udw-4R-baA" customClass="MarkerViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v3K-ZA-ak4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDx-yT-fJz" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="rNC-Td-cRs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kDx-yT-fJz" firstAttribute="height" secondItem="v3K-ZA-ak4" secondAttribute="height" id="445-Zy-VdJ"/>
+                            <constraint firstItem="kDx-yT-fJz" firstAttribute="width" secondItem="v3K-ZA-ak4" secondAttribute="width" id="EDt-xf-9Ld"/>
+                            <constraint firstItem="kDx-yT-fJz" firstAttribute="centerX" secondItem="rNC-Td-cRs" secondAttribute="centerX" id="fKr-IO-G7Y"/>
+                            <constraint firstItem="kDx-yT-fJz" firstAttribute="centerY" secondItem="rNC-Td-cRs" secondAttribute="centerY" id="zwu-DJ-Uy4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="kDx-yT-fJz" id="RO1-T8-fsx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aRb-2C-yVX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2429" y="1341"/>
+        </scene>
+        <!--Path Overlay View Controller-->
+        <scene sceneID="53Q-CA-YIH">
+            <objects>
+                <viewController storyboardIdentifier="pathOverlayMap" id="gWt-dV-xfp" customClass="PathOverlayViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Azs-zh-kFa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f6h-6d-COW" customClass="GMapView">
+                                <rect key="frame" x="0.0" y="5" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eZ8-bq-WHl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f6h-6d-COW" firstAttribute="width" secondItem="Azs-zh-kFa" secondAttribute="width" id="5xG-HE-mCU"/>
+                            <constraint firstItem="f6h-6d-COW" firstAttribute="height" secondItem="Azs-zh-kFa" secondAttribute="height" id="H3v-iY-p1J"/>
+                            <constraint firstItem="f6h-6d-COW" firstAttribute="centerX" secondItem="eZ8-bq-WHl" secondAttribute="centerX" id="ZYX-ut-K0W"/>
+                            <constraint firstItem="f6h-6d-COW" firstAttribute="centerY" secondItem="eZ8-bq-WHl" secondAttribute="centerY" id="jjA-Q3-f7X"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="f6h-6d-COW" id="QB4-ZL-bei"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Nj-tj-Etf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3171" y="1341"/>
         </scene>
     </scenes>
     <resources>

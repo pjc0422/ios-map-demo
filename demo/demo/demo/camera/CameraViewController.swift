@@ -10,7 +10,32 @@ import gmaps
 //import geom
 
 class CameraViewController: BaseViewController {
-    var mapView: GMapView?
+    @IBOutlet weak var mapView: GMapView!
+    
+    let menuList:[String:Selector] = [
+        "panBy":#selector(panBy),
+        "panTo":#selector(panTo),
+        "rotateBy":#selector(rotateBy),
+        "rotateTo":#selector(rotateTo),
+        "zoom1Minus":#selector(zoomBy1Minus),
+        "zoom1Plus":#selector(zoomBy1Plus),
+        "zoomTo":#selector(zoomTo),
+        "useViewpointChangeBuilder":#selector(useViewpointChangeBuilder)
+    ]
+    
+    override func viewDidLoad() {
+        self.setNavigationTitle("Camera")
+        self.addMenuButton()
+    }
+    
+    override func showMenuButton() {
+        
+        showAlert(title: "Map Control", message: "select option", actions: Array(menuList.keys)) { (title, index) in
+            if let call = self.menuList[title] {
+                self.perform(call)
+            }
+        }
+    }
 }
 
 
@@ -21,7 +46,7 @@ extension CameraViewController {
      * param x
      * param y
      */
-    func panBy() {
+    @objc func panBy() {
         if let map = mapView {
             let viewpointChange = GViewpointChange.panBy(x: Double(map.frame.width) , y: Double(map.frame.height))
             map.animateViewpoint(viewpointChange)
@@ -33,7 +58,7 @@ extension CameraViewController {
      *  panTo(coord) {@link com.kt.geom.model.Coord}, {@link LatLng} ,{@link com.kt.geom.model.Katech}, {@link com.kt.geom.model.UTMK}
      *  param coord     지도 상의 특정좌표.
      */
-    func panTo() {
+    @objc func panTo() {
         if let map = mapView {
             let pos = GLatLng.init(lat: 37.50496396044253, lng: 126.98003349536177)
             let viewpointChange = GViewpointChange.pan(to: pos)
@@ -46,7 +71,7 @@ extension CameraViewController {
      * rotateBy(degree)
      * param degree    각도.
      */
-    func rotateBy() {
+    @objc func rotateBy() {
         if let map = mapView {
             let rotateViewPoint = GViewpointChange.rotate(by: 90)
             map.animateViewpoint(rotateViewPoint)
@@ -58,7 +83,7 @@ extension CameraViewController {
      * rotateTo(degree)
      * param degree     각도.
      */
-    func rotateTo() {
+    @objc func rotateTo() {
         if let map = mapView {
             let rotateToViewPoint = GViewpointChange.rotate(to: 90)
             map.animateViewpoint(rotateToViewPoint)
@@ -74,14 +99,14 @@ extension CameraViewController {
      * if(amount < 0) 축소
      *
      */
-    func zoomBy1Minus() {
+    @objc func zoomBy1Minus() {
         if let map = mapView {
             let zoomMinusViewPoint = GViewpointChange.zoom(by: -1)
             map.animateViewpoint(zoomMinusViewPoint)
         }
     }
     
-    func zoomBy1Plus() {
+    @objc func zoomBy1Plus() {
         if let map = mapView {
             let zoomPlusViewPoint = GViewpointChange.zoom(by: 1)
             map.animateViewpoint(zoomPlusViewPoint)
@@ -98,14 +123,14 @@ extension CameraViewController {
      *      zoom >= 0 &&
      *       zoom <= 14
      */
-    func zoomTo() {
+    @objc func zoomTo() {
         if let map = mapView {
             let zoomViewpointChange = GViewpointChange.zoom(to: 13)
             map.animateViewpoint(zoomViewpointChange)
         }
     }
     
-    func useViewpointChangeBuilder () {
+    @objc func useViewpointChangeBuilder () {
         if let map = mapView {
             /**
              zoomTo     : 14

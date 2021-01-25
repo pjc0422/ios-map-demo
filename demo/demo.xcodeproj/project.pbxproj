@@ -15,6 +15,12 @@
 		26252CE025BD93CB00EC7E2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26252CDE25BD93CB00EC7E2D /* LaunchScreen.storyboard */; };
 		26252CEB25BD93CB00EC7E2D /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26252CEA25BD93CB00EC7E2D /* demoTests.swift */; };
 		26252CF625BD93CB00EC7E2D /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26252CF525BD93CB00EC7E2D /* demoUITests.swift */; };
+		2664C95025BEFFD7005EA868 /* MapLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C94F25BEFFD7005EA868 /* MapLayerViewController.swift */; };
+		2664C95225BEFFFF005EA868 /* MapStyleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95125BEFFFF005EA868 /* MapStyleViewController.swift */; };
+		2664C95525BF0168005EA868 /* InfoWindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95425BF0168005EA868 /* InfoWindowViewController.swift */; };
+		2664C95725BF018B005EA868 /* MapShapeOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95625BF018B005EA868 /* MapShapeOverlayViewController.swift */; };
+		2664C95925BF01B0005EA868 /* MarkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95825BF01B0005EA868 /* MarkerViewController.swift */; };
+		2664C95B25BF01CF005EA868 /* PathOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95A25BF01CF005EA868 /* PathOverlayViewController.swift */; };
 		26B6856525BD9CAC0006BC31 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6856425BD9CAC0006BC31 /* DemoCell.swift */; };
 		26B6856A25BD9DC20006BC31 /* DemoTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6856925BD9DC20006BC31 /* DemoTestModel.swift */; };
 		26B6857025BDA9470006BC31 /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6856F25BDA9470006BC31 /* AttributedText.swift */; };
@@ -76,6 +82,12 @@
 		26252CF125BD93CB00EC7E2D /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26252CF525BD93CB00EC7E2D /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		26252CF725BD93CB00EC7E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2664C94F25BEFFD7005EA868 /* MapLayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapLayerViewController.swift; sourceTree = "<group>"; };
+		2664C95125BEFFFF005EA868 /* MapStyleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStyleViewController.swift; sourceTree = "<group>"; };
+		2664C95425BF0168005EA868 /* InfoWindowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowViewController.swift; sourceTree = "<group>"; };
+		2664C95625BF018B005EA868 /* MapShapeOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapShapeOverlayViewController.swift; sourceTree = "<group>"; };
+		2664C95825BF01B0005EA868 /* MarkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViewController.swift; sourceTree = "<group>"; };
+		2664C95A25BF01CF005EA868 /* PathOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathOverlayViewController.swift; sourceTree = "<group>"; };
 		26B6856425BD9CAC0006BC31 /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
 		26B6856925BD9DC20006BC31 /* DemoTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTestModel.swift; sourceTree = "<group>"; };
 		26B6856F25BDA9470006BC31 /* AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedText.swift; sourceTree = "<group>"; };
@@ -171,6 +183,26 @@
 			path = demoUITests;
 			sourceTree = "<group>";
 		};
+		2664C94E25BEFFC4005EA868 /* style */ = {
+			isa = PBXGroup;
+			children = (
+				2664C94F25BEFFD7005EA868 /* MapLayerViewController.swift */,
+				2664C95125BEFFFF005EA868 /* MapStyleViewController.swift */,
+			);
+			path = style;
+			sourceTree = "<group>";
+		};
+		2664C95325BF0150005EA868 /* overlay */ = {
+			isa = PBXGroup;
+			children = (
+				2664C95425BF0168005EA868 /* InfoWindowViewController.swift */,
+				2664C95625BF018B005EA868 /* MapShapeOverlayViewController.swift */,
+				2664C95825BF01B0005EA868 /* MarkerViewController.swift */,
+				2664C95A25BF01CF005EA868 /* PathOverlayViewController.swift */,
+			);
+			path = overlay;
+			sourceTree = "<group>";
+		};
 		26B6856325BD9C9B0006BC31 /* base */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +233,8 @@
 		6845D47D25BE4FAB0088549A /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				2664C95325BF0150005EA868 /* overlay */,
+				2664C94E25BEFFC4005EA868 /* style */,
 				680A82CF25BE9AEC008E3009 /* camera */,
 				6845D48325BE51120088549A /* start */,
 			);
@@ -357,12 +391,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2664C95725BF018B005EA868 /* MapShapeOverlayViewController.swift in Sources */,
 				26B6857025BDA9470006BC31 /* AttributedText.swift in Sources */,
 				680A82D525BEA6B2008E3009 /* GestureMapViewController.swift in Sources */,
 				680A82D125BE9AF9008E3009 /* CameraViewController.swift in Sources */,
 				680A82CC25BE8975008E3009 /* MapViewStoryBoardViewController.swift in Sources */,
+				2664C95525BF0168005EA868 /* InfoWindowViewController.swift in Sources */,
+				2664C95925BF01B0005EA868 /* MarkerViewController.swift in Sources */,
 				26252CD825BD93C700EC7E2D /* ViewController.swift in Sources */,
+				2664C95025BEFFD7005EA868 /* MapLayerViewController.swift in Sources */,
 				26B6856A25BD9DC20006BC31 /* DemoTestModel.swift in Sources */,
+				2664C95225BEFFFF005EA868 /* MapStyleViewController.swift in Sources */,
+				2664C95B25BF01CF005EA868 /* PathOverlayViewController.swift in Sources */,
 				26252CD425BD93C700EC7E2D /* AppDelegate.swift in Sources */,
 				26B6856525BD9CAC0006BC31 /* DemoCell.swift in Sources */,
 				6845D47F25BE4FBB0088549A /* BaseViewController.swift in Sources */,
@@ -550,6 +590,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kt.maps.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

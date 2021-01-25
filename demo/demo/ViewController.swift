@@ -8,9 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: BaseViewController {
+    
     @IBOutlet weak var demoListView: UITableView!
+    
+    let demoList:Dictionary<String, Array<DemoTestModel>> = testModelList()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -22,44 +25,59 @@ class ViewController: UIViewController {
 
     }
 
-
+    func getDemoModel(indexPath: IndexPath) -> DemoTestModel? {
+        let section = indexPath.section
+        let key = Array(demoList.keys) [section]
+        if let value = demoList[key] {
+            return value[indexPath.row]
+        }
+        return nil
+    }
 }
 
+//MARK: - UITableViewDataSource
 extension ViewController: UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 20
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return demoList.keys.count
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        let key = Array(demoList.keys)[section]
+        
+        if let value = demoList[key] {
+            return value.count
+        }
+        
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "DemoCell", for: indexPath) as! DemoCell
-        cell.model = DemoTestModel(title: "Test1", description: "hello world", viewController: nil)
+        cell.model = getDemoModel(indexPath: indexPath)
         return cell
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let section = section
+        let key = Array(demoList.keys) [section]
+        
         let frame = CGRect.init(origin: view.frame.origin, size: CGSize(width: view.frame.size.width, height: 30))
         let view = UIView.init(frame: frame)
         let title = UILabel.init(frame: frame)
-        title.text = "hello world \(section)"
+        title.text = "\(key)"
         title.backgroundColor = .gray
         view.addSubview(title)
         return view
     }
 }
 
+//MARK: - UITableViewDelegate
 extension ViewController:UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("section : \(indexPath.section) ,row : \(indexPath.row)")
-        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let mapViewController = storyBoard.instantiateViewController(identifier: "mapStroyBoard")
-        self.show(mapViewController, sender: nil)
-//        let mapView = MapViewStroyBoardController.init()
-//        self.show(mapView, sender: nil)
-//        self.navigationController?.pushViewController(mapView, animated: true)
+        if let model = getDemoModel(indexPath: indexPath) {
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let mapViewController = storyBoard.instantiateViewController(identifier: model.identifier)
+            self.show(mapViewController, sender: nil)
+        }
     }
 }

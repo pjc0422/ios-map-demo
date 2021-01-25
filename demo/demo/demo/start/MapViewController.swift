@@ -23,7 +23,4 @@ class MapViewController: BaseViewController {
         }
     }
     
-    override func useStoryBoard() -> Bool {
-        return false
-    }
 }

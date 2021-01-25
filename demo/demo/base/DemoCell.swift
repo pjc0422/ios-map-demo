@@ -17,7 +17,7 @@ class DemoCell: UITableViewCell {
             let content = NSMutableAttributedString()
             if let title = model?.title {
                 content.append(NSMutableAttributedString.makeBoldAttrText(text: title,
-                                                                          size: 15,
+                                                                          size: 19,
                                                                           color: .black)
                 )
             }
