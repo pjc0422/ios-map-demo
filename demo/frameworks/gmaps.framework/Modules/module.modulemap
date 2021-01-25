@@ -1,0 +1,6 @@
+framework module gmaps {
+  umbrella header "gmaps.h"
+
+  export *
+  module * { export * }
+}

@@ -7,13 +7,15 @@
 //
 
 import UIKit
+import gmaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    let gisKey = "{key}"
+    let gisKey = "3e2f226e0761da9eda5d597709803af904111c47c2d88bbd51b77c6eb4437bb57cf1576f"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        GMapShared.authKeyRegist(Bundle.main, withKey: gisKey)
         return true
     }
 

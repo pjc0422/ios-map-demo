@@ -1,0 +1,443 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapViewController"
+provides-nominal:
+- "4demo17MapViewControllerC"
+provides-member:
+- ["4demo17MapViewControllerC", ""]
+provides-dynamic-lookup:
+- "createMapView"
+- "mapView"
+- "useStoryBoard"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "GMapOptions"
+- "GMapView"
+- "MapViewController"
+- !private "createMapView"
+- !private "mapView"
+depends-member:
+- ["4demo18BaseViewControllerC", "Bool"]
+- !private ["4demo18BaseViewControllerC", "GMapOptions"]
+- ["4demo18BaseViewControllerC", "GMapView"]
+- ["4demo18BaseViewControllerC", ""]
+- ["4demo18BaseViewControllerC", "createMapView"]
+- ["4demo18BaseViewControllerC", "init"]
+- ["4demo18BaseViewControllerC", "mapView"]
+- ["4demo18BaseViewControllerC", "useStoryBoard"]
+- !private ["4demo18BaseViewControllerC", "view"]
+- ["4demo18BaseViewControllerC", "viewDidLoad"]
+- !private ["So15CALayerDelegateP", "addSubview"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["s7CVarArgP", "GMapOptions"]
+- !private ["s7CVarArgP", "GMapView"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addSubview"]
+- !private ["s7CVarArgP", "createMapView"]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "mapView"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "GMapOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "GMapView"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addSubview"]
+- !private ["s28CustomDebugStringConvertibleP", "createMapView"]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "mapView"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "addSubview"]
+- !private ["s17CustomReflectableP", "frame"]
+- !private ["s23CustomStringConvertibleP", "GMapOptions"]
+- !private ["s23CustomStringConvertibleP", "GMapView"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addSubview"]
+- !private ["s23CustomStringConvertibleP", "createMapView"]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "mapView"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "addSubview"]
+- !private ["Se", "frame"]
+- !private ["SE", "addSubview"]
+- !private ["SE", "frame"]
+- !private ["SQ", "GMapOptions"]
+- !private ["SQ", "GMapView"]
+- ["SQ", ""]
+- !private ["SQ", "addSubview"]
+- !private ["SQ", "createMapView"]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "mapView"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "addSubview"]
+- !private ["s23ExpressibleByNilLiteralP", "frame"]
+- !private ["So11GMapOptionsC", "init"]
+- !private ["So8GMapViewC", "init"]
+- !private ["SH", "GMapOptions"]
+- !private ["SH", "GMapView"]
+- ["SH", ""]
+- !private ["SH", "addSubview"]
+- !private ["SH", "createMapView"]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "mapView"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- ["4demo17MapViewControllerC", "Bool"]
+- !private ["4demo17MapViewControllerC", "GMapOptions"]
+- ["4demo17MapViewControllerC", "GMapView"]
+- ["4demo17MapViewControllerC", ""]
+- ["4demo17MapViewControllerC", "createMapView"]
+- ["4demo17MapViewControllerC", "deinit"]
+- ["4demo17MapViewControllerC", "init"]
+- ["4demo17MapViewControllerC", "mapView"]
+- ["4demo17MapViewControllerC", "useStoryBoard"]
+- !private ["4demo17MapViewControllerC", "view"]
+- ["4demo17MapViewControllerC", "viewDidLoad"]
+- ["So8NSCodingP", "Bool"]
+- !private ["So8NSCodingP", "GMapOptions"]
+- ["So8NSCodingP", "GMapView"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addSubview"]
+- ["So8NSCodingP", "createMapView"]
+- !private ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "mapView"]
+- ["So8NSCodingP", "useStoryBoard"]
+- !private ["So8NSCodingP", "view"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "Bool"]
+- !private ["So26NSExtensionRequestHandlingP", "GMapOptions"]
+- ["So26NSExtensionRequestHandlingP", "GMapView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "createMapView"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "mapView"]
+- ["So26NSExtensionRequestHandlingP", "useStoryBoard"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "GMapOptions"]
+- ["So8NSObjectC", "GMapView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addSubview"]
+- ["So8NSObjectC", "createMapView"]
+- !private ["So8NSObjectC", "frame"]
+- !private ["So8NSObjectC", "frameForAlignmentRect"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "mapView"]
+- ["So8NSObjectC", "useStoryBoard"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "Bool"]
+- !private ["So8NSObjectP", "GMapOptions"]
+- ["So8NSObjectP", "GMapView"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addSubview"]
+- ["So8NSObjectP", "createMapView"]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "frameForAlignmentRect"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "mapView"]
+- ["So8NSObjectP", "useStoryBoard"]
+- !private ["So8NSObjectP", "view"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "addSubview"]
+- !private ["Sq", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "addSubview"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "addSubview"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- ["So21UIAppearanceContainerP", "Bool"]
+- !private ["So21UIAppearanceContainerP", "GMapOptions"]
+- ["So21UIAppearanceContainerP", "GMapView"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "addSubview"]
+- ["So21UIAppearanceContainerP", "createMapView"]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "mapView"]
+- ["So21UIAppearanceContainerP", "useStoryBoard"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Bool"]
+- !private ["So18UIContentContainerP", "GMapOptions"]
+- ["So18UIContentContainerP", "GMapView"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "createMapView"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "mapView"]
+- ["So18UIContentContainerP", "useStoryBoard"]
+- !private ["So18UIContentContainerP", "view"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "addSubview"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "addSubview"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- ["So18UIFocusEnvironmentP", "Bool"]
+- !private ["So18UIFocusEnvironmentP", "GMapOptions"]
+- ["So18UIFocusEnvironmentP", "GMapView"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "addSubview"]
+- ["So18UIFocusEnvironmentP", "createMapView"]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "mapView"]
+- ["So18UIFocusEnvironmentP", "useStoryBoard"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "addSubview"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So20UIFocusItemContainerP", "addSubview"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So24UILargeContentViewerItemP", "addSubview"]
+- !private ["So24UILargeContentViewerItemP", "frame"]
+- !private ["So24UILargeContentViewerItemP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "Bool"]
+- !private ["So30UIPasteConfigurationSupportingP", "GMapOptions"]
+- ["So30UIPasteConfigurationSupportingP", "GMapView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "addSubview"]
+- ["So30UIPasteConfigurationSupportingP", "createMapView"]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "frameForAlignmentRect"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "mapView"]
+- ["So30UIPasteConfigurationSupportingP", "useStoryBoard"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "GMapOptions"]
+- ["So11UIResponderC", "GMapView"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addSubview"]
+- ["So11UIResponderC", "createMapView"]
+- !private ["So11UIResponderC", "frame"]
+- !private ["So11UIResponderC", "frameForAlignmentRect"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "mapView"]
+- ["So11UIResponderC", "useStoryBoard"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "Bool"]
+- !private ["So30UIResponderStandardEditActionsP", "GMapOptions"]
+- ["So30UIResponderStandardEditActionsP", "GMapView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "addSubview"]
+- ["So30UIResponderStandardEditActionsP", "createMapView"]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "frameForAlignmentRect"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "mapView"]
+- ["So30UIResponderStandardEditActionsP", "useStoryBoard"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "Bool"]
+- !private ["So16UIStateRestoringP", "GMapOptions"]
+- ["So16UIStateRestoringP", "GMapView"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "createMapView"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "mapView"]
+- ["So16UIStateRestoringP", "useStoryBoard"]
+- !private ["So16UIStateRestoringP", "view"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "Bool"]
+- !private ["So18UITraitEnvironmentP", "GMapOptions"]
+- ["So18UITraitEnvironmentP", "GMapView"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "addSubview"]
+- ["So18UITraitEnvironmentP", "createMapView"]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "mapView"]
+- ["So18UITraitEnvironmentP", "useStoryBoard"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "Bool"]
+- !private ["So23UIUserActivityRestoringP", "GMapOptions"]
+- ["So23UIUserActivityRestoringP", "GMapView"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "addSubview"]
+- ["So23UIUserActivityRestoringP", "createMapView"]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "frameForAlignmentRect"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "mapView"]
+- ["So23UIUserActivityRestoringP", "useStoryBoard"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "addSubview"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "init"]
+- ["So16UIViewControllerC", "Bool"]
+- !private ["So16UIViewControllerC", "GMapOptions"]
+- ["So16UIViewControllerC", "GMapView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "createMapView"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "mapView"]
+- ["So16UIViewControllerC", "useStoryBoard"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GMapOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GMapView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addSubview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "createMapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GMapOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GMapView"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addSubview"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "createMapView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mapView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "addSubview"]
+- !private ["s21_ObjectiveCBridgeableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addSubview"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+depends-nominal:
+- "4demo18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "So11GMapOptionsC"
+- !private "So8GMapViewC"
+- "SH"
+- "4demo17MapViewControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapShared.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GCoord.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GImage.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/KeyStorage.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GViewpointChange.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GCircle.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedCircle.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedLine.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPolyline.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GRoute.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficRoute.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GLatLng.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GKatech.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPath.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedPath.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GUtmk.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficLink.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/geom.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPolygon.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GVisibleRegion.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapLabelOption.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapLabelInfo.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficManager.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMarker.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/MapCommands.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GLatLngBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GKatechBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GUtmkBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapOptions.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/gmaps.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GViewpoint.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapView.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GInfoWindow.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GUIInfoWindow.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GOverlay.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Modules/module.modulemap"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f49aba94456d17e985800f2c650a33cc"

@@ -1,0 +1,6 @@
+framework module geom {
+  umbrella header "geom.h"
+
+  export *
+  module * { export * }
+}

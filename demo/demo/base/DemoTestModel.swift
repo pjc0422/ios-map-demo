@@ -14,3 +14,10 @@ struct DemoTestModel {
     var description: String?
     var viewController: UIViewController?
 }
+
+
+func testModelList() -> Dictionary<String, Array<DemoTestModel>> {
+    var testSet: Dictionary<String, Array<DemoTestModel>> = Dictionary()
+    testSet["test"] = Array()
+    return testSet
+}
