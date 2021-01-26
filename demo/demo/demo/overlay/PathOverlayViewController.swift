@@ -10,10 +10,6 @@ import gmaps
 
 
 class PathOverlayViewController: BaseViewController {
-    var overlay: GOverlay?
-    var points: [GCoord] = []
-    // default radius = 100
-    var radius:Double = 100
     
     @IBOutlet weak var mapView: GMapView!
     

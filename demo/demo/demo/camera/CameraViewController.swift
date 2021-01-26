@@ -28,7 +28,7 @@ class CameraViewController: BaseViewController {
         self.addMenuButton()
     }
     
-    override func showMenuButton() {
+    override func showMenu() {
         
         showAlert(title: "Map Control", message: "select option", actions: Array(menuList.keys)) { (title, index) in
             if let call = self.menuList[title] {

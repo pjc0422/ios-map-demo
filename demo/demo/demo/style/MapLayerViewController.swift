@@ -28,7 +28,7 @@ class MapLayerViewController: BaseViewController {
         addMenuButton()
     }
     
-    override func showMenuButton() {
+    override func showMenu() {
         showAlert(title: "Layer", message: "layer visible", actions: Array(menuList.keys)) { (title, index) in
             if let call = self.menuList[title] {
                 self.perform(call)

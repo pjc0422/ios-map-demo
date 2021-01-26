@@ -28,7 +28,7 @@ class MapStyleViewController: BaseViewController {
         addMenuButton()
     }
     
-    override func showMenuButton() {
+    override func showMenu() {
         showAlert(title: "Map Style", message: "apply map theme", actions: Array(menuList.keys)) { (title, index) in
             if let call = self.menuList[title] {
                 self.perform(call)

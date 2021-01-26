@@ -15,12 +15,12 @@ class BaseViewController: UIViewController {
     }
     
     func addMenuButton (){
-        let rightButton = UIBarButtonItem.init(title: "+", style: .done, target: self, action:#selector(showMenuButton))
+        let rightButton = UIBarButtonItem.init(title: "+", style: .done, target: self, action:#selector(showMenu))
         navigationItem.setRightBarButton(rightButton, animated: false)
     }
     
     @objc
-    open func showMenuButton() {
+    open func showMenu() {
         // do nothing
     }
     
