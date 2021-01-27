@@ -20,10 +20,12 @@ class InfoWindowViewController: BaseViewController {
     var overlays:[GOverlay] = []
     
     let menuList:[String: Selector] = [
-//        "Default Mode":#selector(modeDefault),
-//        "Custom Mode":#selector(modeCustom),
+        "Default Mode":#selector(modeDefault),
+        "Custom Mode":#selector(modeCustom),
         "clearOverlays":#selector(clearOverlay)
     ]
+    
+    var demoType:InfoWindowType = .defaultAdapter
     
     
     override func viewDidLoad() {
@@ -54,6 +56,22 @@ extension InfoWindowViewController: GMapViewDelegate {
             overlays.append(infoWindow)
         }
     }
+    
+    
+    func mapView(_ mapView: GMapView!, didShow infoWindow: GInfoWindow!) -> UIView! {
+        switch demoType {
+        case .customAdapter:
+            let view = UIView.init(frame: CGRect.init(x: 0, y: 0, width: 130, height: 30))
+            let label = UILabel.init(frame: view.frame)
+            label.textAlignment = .center
+            label.text = "custom label"
+            view.addSubview(label)
+            view.backgroundColor = UIColor.red
+            return view
+        case .defaultAdapter:
+            return mapView.didShowDefaultInfoWindow(infoWindow)
+        }
+    }
 }
 
 
@@ -70,11 +88,11 @@ extension InfoWindowViewController {
 
     @objc
     func modeDefault() {
-        
+        demoType = .defaultAdapter
     }
     
     @objc
     func modeCustom() {
-        
+        demoType = .customAdapter
     }
 }

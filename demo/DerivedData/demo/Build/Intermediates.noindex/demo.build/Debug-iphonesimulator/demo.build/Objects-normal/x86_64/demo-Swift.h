@@ -190,6 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import UIKit;
+@import gmaps;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -225,17 +226,44 @@ SWIFT_CLASS("_TtC4demo11AppDelegate")
 
 SWIFT_CLASS("_TtC4demo18BaseViewController")
 @interface BaseViewController : UIViewController
+- (void)showMenu;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class GMapView;
 
 SWIFT_CLASS("_TtC4demo20CameraViewController")
 @interface CameraViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (void)showMenu;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface CameraViewController (SWIFT_EXTENSION(demo))
+- (void)panBy;
+- (void)panTo;
+- (void)rotateBy;
+- (void)rotateTo;
+/// 현재 줌을 기준으로 지도를 확대/축소 함.
+/// zoomBy(amount)
+/// param amount         확대/축소 값.
+/// if(amount > 0) 확대.
+/// if(amount < 0) 축소
+- (void)zoomBy1Minus;
+- (void)zoomBy1Plus;
+/// 지도를 특정 줌으로 조정.
+/// zoomTo(zoom)
+/// param zoom         지도 확대/축소 레벨
+/// validation zoom value :
+/// zoom >= 0 &&
+/// zoom <= 14
+- (void)zoomTo;
+- (void)useViewpointChangeBuilder;
+@end
 
 @class UILabel;
 
@@ -247,6 +275,106 @@ SWIFT_CLASS("_TtC4demo8DemoCell")
 @end
 
 
+SWIFT_CLASS("_TtC4demo24GestureMapViewController")
+@interface GestureMapViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@protocol GCoord;
+@class GMapLabelInfo;
+@class GViewpoint;
+
+@interface GestureMapViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
+- (void)mapView:(GMapView * _Null_unspecified)mapView didTapAtCoord:(id <GCoord> _Null_unspecified)coord;
+- (void)mapView:(GMapView * _Null_unspecified)mapView didLongPressAtCoord:(id <GCoord> _Null_unspecified)coord;
+- (BOOL)mapView:(GMapView * _Null_unspecified)mapView didTapLabelInfo:(GMapLabelInfo * _Null_unspecified)info SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)mapView:(GMapView * _Null_unspecified)mapView didLongPressLabelInfo:(GMapLabelInfo * _Null_unspecified)info SWIFT_WARN_UNUSED_RESULT;
+- (void)mapView:(GMapView * _Null_unspecified)mapView didIdleAtViewpoint:(GViewpoint * _Null_unspecified)viewpoint;
+/// Pan, Tilt, Rotate, Zoom 는  mapView(_ mapView: GMapView!, didChange viewpoint: GViewpoint!, withGesture gesture: Bool) 로 응답이 내려온다.
+/// viewpoint.center        : 지도의 중심점.
+/// viewpoint.rotation      : 지도의 방위각.
+/// viewpoint.zoom          : 지도의 줌레벨.
+/// viewpoint.tilt          : 지도의 기울기.
+- (void)mapView:(GMapView * _Null_unspecified)mapView didChangeViewpoint:(GViewpoint * _Null_unspecified)viewpoint withGesture:(BOOL)gesture;
+@end
+
+
+SWIFT_CLASS("_TtC4demo24InfoWindowViewController")
+@interface InfoWindowViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (void)showMenu;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class GInfoWindow;
+@class UIView;
+
+@interface InfoWindowViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
+- (void)mapView:(GMapView * _Null_unspecified)mapView didTapAtCoord:(id <GCoord> _Null_unspecified)coord;
+- (UIView * _Null_unspecified)mapView:(GMapView * _Null_unspecified)mapView didShowInfoWindow:(GInfoWindow * _Null_unspecified)infoWindow SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface InfoWindowViewController (SWIFT_EXTENSION(demo))
+- (void)clearOverlay;
+- (void)modeDefault;
+- (void)modeCustom;
+@end
+
+
+SWIFT_CLASS("_TtC4demo22MapLayerViewController")
+@interface MapLayerViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (void)showMenu;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface MapLayerViewController (SWIFT_EXTENSION(demo))
+- (void)backgroundLayerVisibleChange;
+- (void)buildingLayerVisible;
+- (void)networkLayerVisible;
+- (void)labelLayerVisible;
+- (void)lowLevelBackgroundVisible;
+- (void)lowLevelLabelLayerVisible;
+@end
+
+
+SWIFT_CLASS("_TtC4demo29MapShareOverlayViewController")
+@interface MapShareOverlayViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC4demo22MapStyleViewController")
+@interface MapStyleViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (void)showMenu;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface MapStyleViewController (SWIFT_EXTENSION(demo))
+- (void)applyDefault;
+- (void)applyDayDrive;
+- (void)applyNightDefault;
+- (void)applyNightDrive;
+- (void)useAnimation;
+@end
+
+
 SWIFT_CLASS("_TtC4demo17MapViewController")
 @interface MapViewController : BaseViewController
 - (void)viewDidLoad;
@@ -254,7 +382,6 @@ SWIFT_CLASS("_TtC4demo17MapViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class GMapView;
 
 SWIFT_CLASS("_TtC4demo27MapViewStroyBoardController")
 @interface MapViewStroyBoardController : BaseViewController
@@ -264,6 +391,45 @@ SWIFT_CLASS("_TtC4demo27MapViewStroyBoardController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC4demo20MarkerViewController")
+@interface MarkerViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (void)showMenu;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface MarkerViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
+- (void)mapView:(GMapView * _Null_unspecified)mapView didTapAtCoord:(id <GCoord> _Null_unspecified)coord;
+@end
+
+
+@interface MarkerViewController (SWIFT_EXTENSION(demo))
+- (void)addMarkerInit;
+- (void)moveMarkerInit;
+- (void)addCaptionMarker;
+- (void)markerAnimation;
+- (void)markerFlat;
+- (void)clearMarkers;
+@end
+
+
+
+SWIFT_CLASS("_TtC4demo25PathOverlayViewController")
+@interface PathOverlayViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface PathOverlayViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
+- (void)mapView:(GMapView * _Null_unspecified)mapView didTapAtCoord:(id <GCoord> _Null_unspecified)coord;
+@end
 
 @class UIWindow;
 @class UIScene;
@@ -283,7 +449,7 @@ SWIFT_CLASS("_TtC4demo13SceneDelegate")
 @class UITableView;
 
 SWIFT_CLASS("_TtC4demo14ViewController")
-@interface ViewController : UIViewController
+@interface ViewController : BaseViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified demoListView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -295,11 +461,10 @@ SWIFT_CLASS("_TtC4demo14ViewController")
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
 
-@class UIView;
 
 @interface ViewController (SWIFT_EXTENSION(demo)) <UITableViewDataSource>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (UIView * _Nullable)tableView:(UITableView * _Nonnull)tableView viewForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 @end

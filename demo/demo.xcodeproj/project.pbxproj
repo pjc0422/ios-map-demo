@@ -27,6 +27,14 @@
 		680A82CC25BE8975008E3009 /* MapViewStoryBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A82CB25BE8975008E3009 /* MapViewStoryBoardViewController.swift */; };
 		680A82D125BE9AF9008E3009 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A82D025BE9AF9008E3009 /* CameraViewController.swift */; };
 		680A82D525BEA6B2008E3009 /* GestureMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A82D425BEA6B2008E3009 /* GestureMapViewController.swift */; };
+		680A82DF25C13898008E3009 /* night_default_add_style.json in Resources */ = {isa = PBXBuildFile; fileRef = 680A82DB25C13897008E3009 /* night_default_add_style.json */; };
+		680A82E025C13898008E3009 /* night_drive_add_style.json in Resources */ = {isa = PBXBuildFile; fileRef = 680A82DC25C13897008E3009 /* night_drive_add_style.json */; };
+		680A82E125C13898008E3009 /* day_default_add_style.json in Resources */ = {isa = PBXBuildFile; fileRef = 680A82DD25C13898008E3009 /* day_default_add_style.json */; };
+		680A82E225C13898008E3009 /* day_drive_add_style.json in Resources */ = {isa = PBXBuildFile; fileRef = 680A82DE25C13898008E3009 /* day_drive_add_style.json */; };
+		680A82E925C138B0008E3009 /* day_style_icon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 680A82E525C138AF008E3009 /* day_style_icon.txt */; };
+		680A82EA25C138B0008E3009 /* night_style_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 680A82E625C138AF008E3009 /* night_style_icon.png */; };
+		680A82EB25C138B0008E3009 /* day_style_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 680A82E725C138AF008E3009 /* day_style_icon.png */; };
+		680A82EC25C138B0008E3009 /* night_style_icon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 680A82E825C138B0008E3009 /* night_style_icon.txt */; };
 		6845D47F25BE4FBB0088549A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845D47E25BE4FBB0088549A /* BaseViewController.swift */; };
 		6845D48525BE51250088549A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845D48425BE51250088549A /* MapViewController.swift */; };
 		6845D48C25BE65150088549A /* geom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6845D48A25BE65150088549A /* geom.framework */; };
@@ -94,6 +102,14 @@
 		680A82CB25BE8975008E3009 /* MapViewStoryBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewStoryBoardViewController.swift; sourceTree = "<group>"; };
 		680A82D025BE9AF9008E3009 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		680A82D425BEA6B2008E3009 /* GestureMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureMapViewController.swift; sourceTree = "<group>"; };
+		680A82DB25C13897008E3009 /* night_default_add_style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = night_default_add_style.json; sourceTree = "<group>"; };
+		680A82DC25C13897008E3009 /* night_drive_add_style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = night_drive_add_style.json; sourceTree = "<group>"; };
+		680A82DD25C13898008E3009 /* day_default_add_style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_default_add_style.json; sourceTree = "<group>"; };
+		680A82DE25C13898008E3009 /* day_drive_add_style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = day_drive_add_style.json; sourceTree = "<group>"; };
+		680A82E525C138AF008E3009 /* day_style_icon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day_style_icon.txt; sourceTree = "<group>"; };
+		680A82E625C138AF008E3009 /* night_style_icon.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = night_style_icon.png; sourceTree = "<group>"; };
+		680A82E725C138AF008E3009 /* day_style_icon.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = day_style_icon.png; sourceTree = "<group>"; };
+		680A82E825C138B0008E3009 /* night_style_icon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = night_style_icon.txt; sourceTree = "<group>"; };
 		6845D47E25BE4FBB0088549A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6845D48425BE51250088549A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6845D48A25BE65150088549A /* geom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = geom.framework; path = frameworks/geom.framework; sourceTree = "<group>"; };
@@ -151,6 +167,7 @@
 		26252CD225BD93C700EC7E2D /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				680A82DA25C13883008E3009 /* res */,
 				6845D47D25BE4FAB0088549A /* demo */,
 				26B6856E25BDA9320006BC31 /* utils */,
 				26B6856325BD9C9B0006BC31 /* base */,
@@ -228,6 +245,21 @@
 				680A82D425BEA6B2008E3009 /* GestureMapViewController.swift */,
 			);
 			path = camera;
+			sourceTree = "<group>";
+		};
+		680A82DA25C13883008E3009 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				680A82E725C138AF008E3009 /* day_style_icon.png */,
+				680A82E525C138AF008E3009 /* day_style_icon.txt */,
+				680A82E625C138AF008E3009 /* night_style_icon.png */,
+				680A82E825C138B0008E3009 /* night_style_icon.txt */,
+				680A82DD25C13898008E3009 /* day_default_add_style.json */,
+				680A82DE25C13898008E3009 /* day_drive_add_style.json */,
+				680A82DB25C13897008E3009 /* night_default_add_style.json */,
+				680A82DC25C13897008E3009 /* night_drive_add_style.json */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 		6845D47D25BE4FAB0088549A /* demo */ = {
@@ -364,9 +396,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680A82EC25C138B0008E3009 /* night_style_icon.txt in Resources */,
+				680A82EA25C138B0008E3009 /* night_style_icon.png in Resources */,
 				26252CE025BD93CB00EC7E2D /* LaunchScreen.storyboard in Resources */,
+				680A82E225C13898008E3009 /* day_drive_add_style.json in Resources */,
 				26252CDD25BD93CB00EC7E2D /* Assets.xcassets in Resources */,
+				680A82E125C13898008E3009 /* day_default_add_style.json in Resources */,
+				680A82EB25C138B0008E3009 /* day_style_icon.png in Resources */,
+				680A82DF25C13898008E3009 /* night_default_add_style.json in Resources */,
 				26252CDB25BD93C700EC7E2D /* Main.storyboard in Resources */,
+				680A82E925C138B0008E3009 /* day_style_icon.txt in Resources */,
+				680A82E025C13898008E3009 /* night_drive_add_style.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

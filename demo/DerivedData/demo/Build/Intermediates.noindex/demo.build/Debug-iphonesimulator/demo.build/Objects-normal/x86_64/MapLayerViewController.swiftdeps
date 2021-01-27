@@ -1,0 +1,852 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MapLayerViewController"
+provides-nominal:
+- "4demo22MapLayerViewControllerC"
+provides-member:
+- ["4demo22MapLayerViewControllerC", ""]
+- ["4demo22MapLayerViewControllerC", "backgroundLayerVisibleChange"]
+- ["4demo22MapLayerViewControllerC", "buildingLayerVisible"]
+- ["4demo22MapLayerViewControllerC", "networkLayerVisible"]
+- ["4demo22MapLayerViewControllerC", "labelLayerVisible"]
+- ["4demo22MapLayerViewControllerC", "lowLevelBackgroundVisible"]
+- ["4demo22MapLayerViewControllerC", "lowLevelLabelLayerVisible"]
+provides-dynamic-lookup:
+- "backgroundLayerVisibleChange"
+- "buildingLayerVisible"
+- "labelLayerVisible"
+- "lowLevelBackgroundVisible"
+- "lowLevelLabelLayerVisible"
+- "mapView"
+- "menuList"
+- "networkLayerVisible"
+- "showMenu"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "GMapView"
+- "MapLayerViewController"
+- "Selector"
+- "String"
+- "StringLiteralType"
+- !private "addMenuButton"
+- "backgroundLayerVisibleChange"
+- "buildingLayerVisible"
+- "labelLayerVisible"
+- "lowLevelBackgroundVisible"
+- "lowLevelLabelLayerVisible"
+- !private "mapView"
+- !private "menuList"
+- "networkLayerVisible"
+- !private "setNavigationTitle"
+- !private "showAlert"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["4demo18BaseViewControllerC", "Array"]
+- ["4demo18BaseViewControllerC", "GMapView"]
+- ["4demo18BaseViewControllerC", "Selector"]
+- ["4demo18BaseViewControllerC", "String"]
+- ["4demo18BaseViewControllerC", ""]
+- !private ["4demo18BaseViewControllerC", "addMenuButton"]
+- ["4demo18BaseViewControllerC", "backgroundLayerVisibleChange"]
+- ["4demo18BaseViewControllerC", "buildingLayerVisible"]
+- ["4demo18BaseViewControllerC", "init"]
+- ["4demo18BaseViewControllerC", "labelLayerVisible"]
+- ["4demo18BaseViewControllerC", "lowLevelBackgroundVisible"]
+- ["4demo18BaseViewControllerC", "lowLevelLabelLayerVisible"]
+- ["4demo18BaseViewControllerC", "mapView"]
+- ["4demo18BaseViewControllerC", "menuList"]
+- ["4demo18BaseViewControllerC", "networkLayerVisible"]
+- !private ["4demo18BaseViewControllerC", "perform"]
+- !private ["4demo18BaseViewControllerC", "setNavigationTitle"]
+- !private ["4demo18BaseViewControllerC", "showAlert"]
+- ["4demo18BaseViewControllerC", "showMenu"]
+- ["4demo18BaseViewControllerC", "viewDidLoad"]
+- !private ["SK", ""]
+- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "backgroundLayerVisible"]
+- !private ["So15CALayerDelegateP", "buildingLayerVisible"]
+- !private ["So15CALayerDelegateP", "labelLayerVisible"]
+- !private ["So15CALayerDelegateP", "lowLevelBackgroundLayerVisible"]
+- !private ["So15CALayerDelegateP", "lowLevelLabelLayerVisible"]
+- !private ["So15CALayerDelegateP", "networkLayerVisible"]
+- !private ["s7CVarArgP", "Array"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addMenuButton"]
+- !private ["s7CVarArgP", "backgroundLayerVisible"]
+- ["s7CVarArgP", "backgroundLayerVisibleChange"]
+- ["s7CVarArgP", "buildingLayerVisible"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keys"]
+- ["s7CVarArgP", "labelLayerVisible"]
+- !private ["s7CVarArgP", "lowLevelBackgroundLayerVisible"]
+- ["s7CVarArgP", "lowLevelBackgroundVisible"]
+- ["s7CVarArgP", "lowLevelLabelLayerVisible"]
+- !private ["s7CVarArgP", "mapView"]
+- !private ["s7CVarArgP", "menuList"]
+- ["s7CVarArgP", "networkLayerVisible"]
+- !private ["s7CVarArgP", "perform"]
+- !private ["s7CVarArgP", "setNavigationTitle"]
+- !private ["s7CVarArgP", "showAlert"]
+- !private ["s7CVarArgP", "showMenu"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", ""]
+- !private ["Sl", "init"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "subscript"]
+- !private ["SL", ""]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addMenuButton"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundLayerVisible"]
+- ["s28CustomDebugStringConvertibleP", "backgroundLayerVisibleChange"]
+- ["s28CustomDebugStringConvertibleP", "buildingLayerVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- ["s28CustomDebugStringConvertibleP", "labelLayerVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "lowLevelBackgroundLayerVisible"]
+- ["s28CustomDebugStringConvertibleP", "lowLevelBackgroundVisible"]
+- ["s28CustomDebugStringConvertibleP", "lowLevelLabelLayerVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "mapView"]
+- !private ["s28CustomDebugStringConvertibleP", "menuList"]
+- ["s28CustomDebugStringConvertibleP", "networkLayerVisible"]
+- !private ["s28CustomDebugStringConvertibleP", "perform"]
+- !private ["s28CustomDebugStringConvertibleP", "setNavigationTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "showAlert"]
+- !private ["s28CustomDebugStringConvertibleP", "showMenu"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "backgroundLayerVisible"]
+- !private ["s17CustomReflectableP", "buildingLayerVisible"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "keys"]
+- !private ["s17CustomReflectableP", "labelLayerVisible"]
+- !private ["s17CustomReflectableP", "lowLevelBackgroundLayerVisible"]
+- !private ["s17CustomReflectableP", "lowLevelLabelLayerVisible"]
+- !private ["s17CustomReflectableP", "networkLayerVisible"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addMenuButton"]
+- !private ["s23CustomStringConvertibleP", "backgroundLayerVisible"]
+- ["s23CustomStringConvertibleP", "backgroundLayerVisibleChange"]
+- ["s23CustomStringConvertibleP", "buildingLayerVisible"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keys"]
+- ["s23CustomStringConvertibleP", "labelLayerVisible"]
+- !private ["s23CustomStringConvertibleP", "lowLevelBackgroundLayerVisible"]
+- ["s23CustomStringConvertibleP", "lowLevelBackgroundVisible"]
+- ["s23CustomStringConvertibleP", "lowLevelLabelLayerVisible"]
+- !private ["s23CustomStringConvertibleP", "mapView"]
+- !private ["s23CustomStringConvertibleP", "menuList"]
+- ["s23CustomStringConvertibleP", "networkLayerVisible"]
+- !private ["s23CustomStringConvertibleP", "perform"]
+- !private ["s23CustomStringConvertibleP", "setNavigationTitle"]
+- !private ["s23CustomStringConvertibleP", "showAlert"]
+- !private ["s23CustomStringConvertibleP", "showMenu"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "backgroundLayerVisible"]
+- !private ["Se", "buildingLayerVisible"]
+- !private ["Se", "init"]
+- !private ["Se", "keys"]
+- !private ["Se", "labelLayerVisible"]
+- !private ["Se", "lowLevelBackgroundLayerVisible"]
+- !private ["Se", "lowLevelLabelLayerVisible"]
+- !private ["Se", "networkLayerVisible"]
+- !private ["Se", "subscript"]
+- !private ["SD", "keys"]
+- !private ["SD", "subscript"]
+- !private ["SE", "backgroundLayerVisible"]
+- !private ["SE", "buildingLayerVisible"]
+- !private ["SE", "init"]
+- !private ["SE", "keys"]
+- !private ["SE", "labelLayerVisible"]
+- !private ["SE", "lowLevelBackgroundLayerVisible"]
+- !private ["SE", "lowLevelLabelLayerVisible"]
+- !private ["SE", "networkLayerVisible"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "Array"]
+- ["SQ", ""]
+- !private ["SQ", "addMenuButton"]
+- !private ["SQ", "backgroundLayerVisible"]
+- ["SQ", "backgroundLayerVisibleChange"]
+- ["SQ", "buildingLayerVisible"]
+- !private ["SQ", "init"]
+- !private ["SQ", "keys"]
+- ["SQ", "labelLayerVisible"]
+- !private ["SQ", "lowLevelBackgroundLayerVisible"]
+- ["SQ", "lowLevelBackgroundVisible"]
+- ["SQ", "lowLevelLabelLayerVisible"]
+- !private ["SQ", "mapView"]
+- !private ["SQ", "menuList"]
+- ["SQ", "networkLayerVisible"]
+- !private ["SQ", "perform"]
+- !private ["SQ", "setNavigationTitle"]
+- !private ["SQ", "showAlert"]
+- !private ["SQ", "showMenu"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundLayerVisible"]
+- !private ["s23ExpressibleByNilLiteralP", "buildingLayerVisible"]
+- !private ["s23ExpressibleByNilLiteralP", "labelLayerVisible"]
+- !private ["s23ExpressibleByNilLiteralP", "lowLevelBackgroundLayerVisible"]
+- !private ["s23ExpressibleByNilLiteralP", "lowLevelLabelLayerVisible"]
+- !private ["s23ExpressibleByNilLiteralP", "networkLayerVisible"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["So8GMapViewC", "backgroundLayerVisible"]
+- !private ["So8GMapViewC", "buildingLayerVisible"]
+- !private ["So8GMapViewC", "labelLayerVisible"]
+- !private ["So8GMapViewC", "lowLevelBackgroundLayerVisible"]
+- !private ["So8GMapViewC", "lowLevelLabelLayerVisible"]
+- !private ["So8GMapViewC", "networkLayerVisible"]
+- !private ["SH", "Array"]
+- ["SH", ""]
+- !private ["SH", "addMenuButton"]
+- !private ["SH", "backgroundLayerVisible"]
+- ["SH", "backgroundLayerVisibleChange"]
+- ["SH", "buildingLayerVisible"]
+- !private ["SH", "init"]
+- !private ["SH", "keys"]
+- ["SH", "labelLayerVisible"]
+- !private ["SH", "lowLevelBackgroundLayerVisible"]
+- ["SH", "lowLevelBackgroundVisible"]
+- ["SH", "lowLevelLabelLayerVisible"]
+- !private ["SH", "mapView"]
+- !private ["SH", "menuList"]
+- ["SH", "networkLayerVisible"]
+- !private ["SH", "perform"]
+- !private ["SH", "setNavigationTitle"]
+- !private ["SH", "showAlert"]
+- !private ["SH", "showMenu"]
+- !private ["SH", "subscript"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["4demo22MapLayerViewControllerC", "Array"]
+- ["4demo22MapLayerViewControllerC", "GMapView"]
+- ["4demo22MapLayerViewControllerC", "Selector"]
+- ["4demo22MapLayerViewControllerC", "String"]
+- ["4demo22MapLayerViewControllerC", ""]
+- !private ["4demo22MapLayerViewControllerC", "addMenuButton"]
+- ["4demo22MapLayerViewControllerC", "backgroundLayerVisibleChange"]
+- ["4demo22MapLayerViewControllerC", "buildingLayerVisible"]
+- ["4demo22MapLayerViewControllerC", "deinit"]
+- ["4demo22MapLayerViewControllerC", "init"]
+- ["4demo22MapLayerViewControllerC", "labelLayerVisible"]
+- ["4demo22MapLayerViewControllerC", "lowLevelBackgroundVisible"]
+- ["4demo22MapLayerViewControllerC", "lowLevelLabelLayerVisible"]
+- ["4demo22MapLayerViewControllerC", "mapView"]
+- ["4demo22MapLayerViewControllerC", "menuList"]
+- ["4demo22MapLayerViewControllerC", "networkLayerVisible"]
+- !private ["4demo22MapLayerViewControllerC", "perform"]
+- !private ["4demo22MapLayerViewControllerC", "setNavigationTitle"]
+- !private ["4demo22MapLayerViewControllerC", "showAlert"]
+- ["4demo22MapLayerViewControllerC", "showMenu"]
+- ["4demo22MapLayerViewControllerC", "viewDidLoad"]
+- !private ["SM", ""]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "Array"]
+- ["So8NSCodingP", "GMapView"]
+- ["So8NSCodingP", "Selector"]
+- ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "addMenuButton"]
+- !private ["So8NSCodingP", "backgroundLayerVisible"]
+- ["So8NSCodingP", "backgroundLayerVisibleChange"]
+- ["So8NSCodingP", "buildingLayerVisible"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "labelLayerVisible"]
+- !private ["So8NSCodingP", "lowLevelBackgroundLayerVisible"]
+- ["So8NSCodingP", "lowLevelBackgroundVisible"]
+- ["So8NSCodingP", "lowLevelLabelLayerVisible"]
+- ["So8NSCodingP", "mapView"]
+- ["So8NSCodingP", "menuList"]
+- ["So8NSCodingP", "networkLayerVisible"]
+- !private ["So8NSCodingP", "perform"]
+- ["So8NSCodingP", "setNavigationTitle"]
+- ["So8NSCodingP", "showAction"]
+- ["So8NSCodingP", "showAlert"]
+- ["So8NSCodingP", "showMenu"]
+- ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Array"]
+- ["So26NSExtensionRequestHandlingP", "GMapView"]
+- ["So26NSExtensionRequestHandlingP", "Selector"]
+- ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "addMenuButton"]
+- ["So26NSExtensionRequestHandlingP", "backgroundLayerVisibleChange"]
+- ["So26NSExtensionRequestHandlingP", "buildingLayerVisible"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "labelLayerVisible"]
+- ["So26NSExtensionRequestHandlingP", "lowLevelBackgroundVisible"]
+- ["So26NSExtensionRequestHandlingP", "lowLevelLabelLayerVisible"]
+- ["So26NSExtensionRequestHandlingP", "mapView"]
+- ["So26NSExtensionRequestHandlingP", "menuList"]
+- ["So26NSExtensionRequestHandlingP", "networkLayerVisible"]
+- !private ["So26NSExtensionRequestHandlingP", "perform"]
+- ["So26NSExtensionRequestHandlingP", "setNavigationTitle"]
+- ["So26NSExtensionRequestHandlingP", "showAction"]
+- ["So26NSExtensionRequestHandlingP", "showAlert"]
+- ["So26NSExtensionRequestHandlingP", "showMenu"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "GMapView"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addMenuButton"]
+- !private ["So8NSObjectC", "backgroundLayerVisible"]
+- ["So8NSObjectC", "backgroundLayerVisibleChange"]
+- ["So8NSObjectC", "buildingLayerVisible"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "labelLayerVisible"]
+- !private ["So8NSObjectC", "lowLevelBackgroundLayerVisible"]
+- ["So8NSObjectC", "lowLevelBackgroundVisible"]
+- ["So8NSObjectC", "lowLevelLabelLayerVisible"]
+- ["So8NSObjectC", "mapView"]
+- ["So8NSObjectC", "menuList"]
+- ["So8NSObjectC", "networkLayerVisible"]
+- !private ["So8NSObjectC", "perform"]
+- !private ["So8NSObjectC", "setNavigationTitle"]
+- !private ["So8NSObjectC", "showAlert"]
+- ["So8NSObjectC", "showMenu"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "Array"]
+- ["So8NSObjectP", "GMapView"]
+- ["So8NSObjectP", "Selector"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addMenuButton"]
+- !private ["So8NSObjectP", "backgroundLayerVisible"]
+- ["So8NSObjectP", "backgroundLayerVisibleChange"]
+- ["So8NSObjectP", "buildingLayerVisible"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "labelLayerVisible"]
+- !private ["So8NSObjectP", "lowLevelBackgroundLayerVisible"]
+- ["So8NSObjectP", "lowLevelBackgroundVisible"]
+- ["So8NSObjectP", "lowLevelLabelLayerVisible"]
+- ["So8NSObjectP", "mapView"]
+- ["So8NSObjectP", "menuList"]
+- ["So8NSObjectP", "networkLayerVisible"]
+- !private ["So8NSObjectP", "perform"]
+- ["So8NSObjectP", "setNavigationTitle"]
+- ["So8NSObjectP", "showAction"]
+- ["So8NSObjectP", "showAlert"]
+- ["So8NSObjectP", "showMenu"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "backgroundLayerVisible"]
+- !private ["Sq", "buildingLayerVisible"]
+- !private ["Sq", "labelLayerVisible"]
+- !private ["Sq", "lowLevelBackgroundLayerVisible"]
+- !private ["Sq", "lowLevelLabelLayerVisible"]
+- !private ["Sq", "networkLayerVisible"]
+- !private ["Sk", ""]
+- !private ["Sk", "init"]
+- !private ["Sm", ""]
+- !private ["Sm", "init"]
+- !private ["ST", ""]
+- !private ["ST", "init"]
+- !private ["ST", "keys"]
+- !private ["ST", "subscript"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundLayerVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "buildingLayerVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "labelLayerVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "lowLevelBackgroundLayerVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "lowLevelLabelLayerVisible"]
+- !private ["So29UIAccessibilityIdentificationP", "networkLayerVisible"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "backgroundLayerVisible"]
+- !private ["So12UIAppearanceP", "buildingLayerVisible"]
+- !private ["So12UIAppearanceP", "labelLayerVisible"]
+- !private ["So12UIAppearanceP", "lowLevelBackgroundLayerVisible"]
+- !private ["So12UIAppearanceP", "lowLevelLabelLayerVisible"]
+- !private ["So12UIAppearanceP", "networkLayerVisible"]
+- !private ["So21UIAppearanceContainerP", "Array"]
+- ["So21UIAppearanceContainerP", "GMapView"]
+- ["So21UIAppearanceContainerP", "Selector"]
+- ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "addMenuButton"]
+- !private ["So21UIAppearanceContainerP", "backgroundLayerVisible"]
+- ["So21UIAppearanceContainerP", "backgroundLayerVisibleChange"]
+- ["So21UIAppearanceContainerP", "buildingLayerVisible"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "labelLayerVisible"]
+- !private ["So21UIAppearanceContainerP", "lowLevelBackgroundLayerVisible"]
+- ["So21UIAppearanceContainerP", "lowLevelBackgroundVisible"]
+- ["So21UIAppearanceContainerP", "lowLevelLabelLayerVisible"]
+- ["So21UIAppearanceContainerP", "mapView"]
+- ["So21UIAppearanceContainerP", "menuList"]
+- ["So21UIAppearanceContainerP", "networkLayerVisible"]
+- !private ["So21UIAppearanceContainerP", "perform"]
+- ["So21UIAppearanceContainerP", "setNavigationTitle"]
+- ["So21UIAppearanceContainerP", "showAction"]
+- ["So21UIAppearanceContainerP", "showAlert"]
+- ["So21UIAppearanceContainerP", "showMenu"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Array"]
+- ["So18UIContentContainerP", "GMapView"]
+- ["So18UIContentContainerP", "Selector"]
+- ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "addMenuButton"]
+- ["So18UIContentContainerP", "backgroundLayerVisibleChange"]
+- ["So18UIContentContainerP", "buildingLayerVisible"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "labelLayerVisible"]
+- ["So18UIContentContainerP", "lowLevelBackgroundVisible"]
+- ["So18UIContentContainerP", "lowLevelLabelLayerVisible"]
+- ["So18UIContentContainerP", "mapView"]
+- ["So18UIContentContainerP", "menuList"]
+- ["So18UIContentContainerP", "networkLayerVisible"]
+- !private ["So18UIContentContainerP", "perform"]
+- ["So18UIContentContainerP", "setNavigationTitle"]
+- ["So18UIContentContainerP", "showAction"]
+- ["So18UIContentContainerP", "showAlert"]
+- ["So18UIContentContainerP", "showMenu"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "backgroundLayerVisible"]
+- !private ["So17UICoordinateSpaceP", "buildingLayerVisible"]
+- !private ["So17UICoordinateSpaceP", "labelLayerVisible"]
+- !private ["So17UICoordinateSpaceP", "lowLevelBackgroundLayerVisible"]
+- !private ["So17UICoordinateSpaceP", "lowLevelLabelLayerVisible"]
+- !private ["So17UICoordinateSpaceP", "networkLayerVisible"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "backgroundLayerVisible"]
+- !private ["So13UIDynamicItemP", "buildingLayerVisible"]
+- !private ["So13UIDynamicItemP", "labelLayerVisible"]
+- !private ["So13UIDynamicItemP", "lowLevelBackgroundLayerVisible"]
+- !private ["So13UIDynamicItemP", "lowLevelLabelLayerVisible"]
+- !private ["So13UIDynamicItemP", "networkLayerVisible"]
+- !private ["So18UIFocusEnvironmentP", "Array"]
+- ["So18UIFocusEnvironmentP", "GMapView"]
+- ["So18UIFocusEnvironmentP", "Selector"]
+- ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "addMenuButton"]
+- !private ["So18UIFocusEnvironmentP", "backgroundLayerVisible"]
+- ["So18UIFocusEnvironmentP", "backgroundLayerVisibleChange"]
+- ["So18UIFocusEnvironmentP", "buildingLayerVisible"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "labelLayerVisible"]
+- !private ["So18UIFocusEnvironmentP", "lowLevelBackgroundLayerVisible"]
+- ["So18UIFocusEnvironmentP", "lowLevelBackgroundVisible"]
+- ["So18UIFocusEnvironmentP", "lowLevelLabelLayerVisible"]
+- ["So18UIFocusEnvironmentP", "mapView"]
+- ["So18UIFocusEnvironmentP", "menuList"]
+- ["So18UIFocusEnvironmentP", "networkLayerVisible"]
+- !private ["So18UIFocusEnvironmentP", "perform"]
+- ["So18UIFocusEnvironmentP", "setNavigationTitle"]
+- ["So18UIFocusEnvironmentP", "showAction"]
+- ["So18UIFocusEnvironmentP", "showAlert"]
+- ["So18UIFocusEnvironmentP", "showMenu"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "backgroundLayerVisible"]
+- !private ["So11UIFocusItemP", "buildingLayerVisible"]
+- !private ["So11UIFocusItemP", "labelLayerVisible"]
+- !private ["So11UIFocusItemP", "lowLevelBackgroundLayerVisible"]
+- !private ["So11UIFocusItemP", "lowLevelLabelLayerVisible"]
+- !private ["So11UIFocusItemP", "networkLayerVisible"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "backgroundLayerVisible"]
+- !private ["So20UIFocusItemContainerP", "buildingLayerVisible"]
+- !private ["So20UIFocusItemContainerP", "labelLayerVisible"]
+- !private ["So20UIFocusItemContainerP", "lowLevelBackgroundLayerVisible"]
+- !private ["So20UIFocusItemContainerP", "lowLevelLabelLayerVisible"]
+- !private ["So20UIFocusItemContainerP", "networkLayerVisible"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "backgroundLayerVisible"]
+- !private ["So24UILargeContentViewerItemP", "buildingLayerVisible"]
+- !private ["So24UILargeContentViewerItemP", "labelLayerVisible"]
+- !private ["So24UILargeContentViewerItemP", "lowLevelBackgroundLayerVisible"]
+- !private ["So24UILargeContentViewerItemP", "lowLevelLabelLayerVisible"]
+- !private ["So24UILargeContentViewerItemP", "networkLayerVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "Array"]
+- ["So30UIPasteConfigurationSupportingP", "GMapView"]
+- ["So30UIPasteConfigurationSupportingP", "Selector"]
+- ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "addMenuButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundLayerVisible"]
+- ["So30UIPasteConfigurationSupportingP", "backgroundLayerVisibleChange"]
+- ["So30UIPasteConfigurationSupportingP", "buildingLayerVisible"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "labelLayerVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "lowLevelBackgroundLayerVisible"]
+- ["So30UIPasteConfigurationSupportingP", "lowLevelBackgroundVisible"]
+- ["So30UIPasteConfigurationSupportingP", "lowLevelLabelLayerVisible"]
+- ["So30UIPasteConfigurationSupportingP", "mapView"]
+- ["So30UIPasteConfigurationSupportingP", "menuList"]
+- ["So30UIPasteConfigurationSupportingP", "networkLayerVisible"]
+- !private ["So30UIPasteConfigurationSupportingP", "perform"]
+- ["So30UIPasteConfigurationSupportingP", "setNavigationTitle"]
+- ["So30UIPasteConfigurationSupportingP", "showAction"]
+- ["So30UIPasteConfigurationSupportingP", "showAlert"]
+- ["So30UIPasteConfigurationSupportingP", "showMenu"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Array"]
+- ["So11UIResponderC", "GMapView"]
+- ["So11UIResponderC", "Selector"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "addMenuButton"]
+- !private ["So11UIResponderC", "backgroundLayerVisible"]
+- ["So11UIResponderC", "backgroundLayerVisibleChange"]
+- ["So11UIResponderC", "buildingLayerVisible"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "labelLayerVisible"]
+- !private ["So11UIResponderC", "lowLevelBackgroundLayerVisible"]
+- ["So11UIResponderC", "lowLevelBackgroundVisible"]
+- ["So11UIResponderC", "lowLevelLabelLayerVisible"]
+- ["So11UIResponderC", "mapView"]
+- ["So11UIResponderC", "menuList"]
+- ["So11UIResponderC", "networkLayerVisible"]
+- !private ["So11UIResponderC", "perform"]
+- !private ["So11UIResponderC", "setNavigationTitle"]
+- !private ["So11UIResponderC", "showAlert"]
+- ["So11UIResponderC", "showMenu"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Array"]
+- ["So30UIResponderStandardEditActionsP", "GMapView"]
+- ["So30UIResponderStandardEditActionsP", "Selector"]
+- ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "addMenuButton"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundLayerVisible"]
+- ["So30UIResponderStandardEditActionsP", "backgroundLayerVisibleChange"]
+- ["So30UIResponderStandardEditActionsP", "buildingLayerVisible"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "labelLayerVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "lowLevelBackgroundLayerVisible"]
+- ["So30UIResponderStandardEditActionsP", "lowLevelBackgroundVisible"]
+- ["So30UIResponderStandardEditActionsP", "lowLevelLabelLayerVisible"]
+- ["So30UIResponderStandardEditActionsP", "mapView"]
+- ["So30UIResponderStandardEditActionsP", "menuList"]
+- ["So30UIResponderStandardEditActionsP", "networkLayerVisible"]
+- !private ["So30UIResponderStandardEditActionsP", "perform"]
+- ["So30UIResponderStandardEditActionsP", "setNavigationTitle"]
+- ["So30UIResponderStandardEditActionsP", "showAction"]
+- ["So30UIResponderStandardEditActionsP", "showAlert"]
+- ["So30UIResponderStandardEditActionsP", "showMenu"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "Array"]
+- ["So16UIStateRestoringP", "GMapView"]
+- ["So16UIStateRestoringP", "Selector"]
+- ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "addMenuButton"]
+- ["So16UIStateRestoringP", "backgroundLayerVisibleChange"]
+- ["So16UIStateRestoringP", "buildingLayerVisible"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "labelLayerVisible"]
+- ["So16UIStateRestoringP", "lowLevelBackgroundVisible"]
+- ["So16UIStateRestoringP", "lowLevelLabelLayerVisible"]
+- ["So16UIStateRestoringP", "mapView"]
+- ["So16UIStateRestoringP", "menuList"]
+- ["So16UIStateRestoringP", "networkLayerVisible"]
+- !private ["So16UIStateRestoringP", "perform"]
+- ["So16UIStateRestoringP", "setNavigationTitle"]
+- ["So16UIStateRestoringP", "showAction"]
+- ["So16UIStateRestoringP", "showAlert"]
+- ["So16UIStateRestoringP", "showMenu"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Array"]
+- ["So18UITraitEnvironmentP", "GMapView"]
+- ["So18UITraitEnvironmentP", "Selector"]
+- ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "addMenuButton"]
+- !private ["So18UITraitEnvironmentP", "backgroundLayerVisible"]
+- ["So18UITraitEnvironmentP", "backgroundLayerVisibleChange"]
+- ["So18UITraitEnvironmentP", "buildingLayerVisible"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "labelLayerVisible"]
+- !private ["So18UITraitEnvironmentP", "lowLevelBackgroundLayerVisible"]
+- ["So18UITraitEnvironmentP", "lowLevelBackgroundVisible"]
+- ["So18UITraitEnvironmentP", "lowLevelLabelLayerVisible"]
+- ["So18UITraitEnvironmentP", "mapView"]
+- ["So18UITraitEnvironmentP", "menuList"]
+- ["So18UITraitEnvironmentP", "networkLayerVisible"]
+- !private ["So18UITraitEnvironmentP", "perform"]
+- ["So18UITraitEnvironmentP", "setNavigationTitle"]
+- ["So18UITraitEnvironmentP", "showAction"]
+- ["So18UITraitEnvironmentP", "showAlert"]
+- ["So18UITraitEnvironmentP", "showMenu"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "Array"]
+- ["So23UIUserActivityRestoringP", "GMapView"]
+- ["So23UIUserActivityRestoringP", "Selector"]
+- ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "addMenuButton"]
+- !private ["So23UIUserActivityRestoringP", "backgroundLayerVisible"]
+- ["So23UIUserActivityRestoringP", "backgroundLayerVisibleChange"]
+- ["So23UIUserActivityRestoringP", "buildingLayerVisible"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "labelLayerVisible"]
+- !private ["So23UIUserActivityRestoringP", "lowLevelBackgroundLayerVisible"]
+- ["So23UIUserActivityRestoringP", "lowLevelBackgroundVisible"]
+- ["So23UIUserActivityRestoringP", "lowLevelLabelLayerVisible"]
+- ["So23UIUserActivityRestoringP", "mapView"]
+- ["So23UIUserActivityRestoringP", "menuList"]
+- ["So23UIUserActivityRestoringP", "networkLayerVisible"]
+- !private ["So23UIUserActivityRestoringP", "perform"]
+- ["So23UIUserActivityRestoringP", "setNavigationTitle"]
+- ["So23UIUserActivityRestoringP", "showAction"]
+- ["So23UIUserActivityRestoringP", "showAlert"]
+- ["So23UIUserActivityRestoringP", "showMenu"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "backgroundLayerVisible"]
+- !private ["So6UIViewC", "buildingLayerVisible"]
+- !private ["So6UIViewC", "labelLayerVisible"]
+- !private ["So6UIViewC", "lowLevelBackgroundLayerVisible"]
+- !private ["So6UIViewC", "lowLevelLabelLayerVisible"]
+- !private ["So6UIViewC", "networkLayerVisible"]
+- !private ["So16UIViewControllerC", "Array"]
+- ["So16UIViewControllerC", "GMapView"]
+- ["So16UIViewControllerC", "Selector"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "addMenuButton"]
+- ["So16UIViewControllerC", "backgroundLayerVisibleChange"]
+- ["So16UIViewControllerC", "buildingLayerVisible"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "labelLayerVisible"]
+- ["So16UIViewControllerC", "lowLevelBackgroundVisible"]
+- ["So16UIViewControllerC", "lowLevelLabelLayerVisible"]
+- ["So16UIViewControllerC", "mapView"]
+- ["So16UIViewControllerC", "menuList"]
+- ["So16UIViewControllerC", "networkLayerVisible"]
+- !private ["So16UIViewControllerC", "perform"]
+- !private ["So16UIViewControllerC", "setNavigationTitle"]
+- !private ["So16UIViewControllerC", "showAlert"]
+- ["So16UIViewControllerC", "showMenu"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "keys"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addMenuButton"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundLayerVisible"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "backgroundLayerVisibleChange"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "buildingLayerVisible"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "labelLayerVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowLevelBackgroundLayerVisible"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "lowLevelBackgroundVisible"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "lowLevelLabelLayerVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "menuList"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "networkLayerVisible"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "perform"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNavigationTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showAlert"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showMenu"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Array"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addMenuButton"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundLayerVisible"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundLayerVisibleChange"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "buildingLayerVisible"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "labelLayerVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowLevelBackgroundLayerVisible"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowLevelBackgroundVisible"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowLevelLabelLayerVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mapView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "menuList"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "networkLayerVisible"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "perform"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setNavigationTitle"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showAlert"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "showMenu"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundLayerVisible"]
+- !private ["s21_ObjectiveCBridgeableP", "buildingLayerVisible"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "keys"]
+- !private ["s21_ObjectiveCBridgeableP", "labelLayerVisible"]
+- !private ["s21_ObjectiveCBridgeableP", "lowLevelBackgroundLayerVisible"]
+- !private ["s21_ObjectiveCBridgeableP", "lowLevelLabelLayerVisible"]
+- !private ["s21_ObjectiveCBridgeableP", "networkLayerVisible"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundLayerVisible"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "buildingLayerVisible"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "labelLayerVisible"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "lowLevelBackgroundLayerVisible"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "lowLevelLabelLayerVisible"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "networkLayerVisible"]
+depends-nominal:
+- !private "Sa"
+- "4demo18BaseViewControllerC"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So8GMapViewC"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- "4demo22MapLayerViewControllerC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapShared.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GCoord.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GImage.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/KeyStorage.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GViewpointChange.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GCircle.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedCircle.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedLine.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPolyline.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GRoute.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficRoute.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GLatLng.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GKatech.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPath.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedPath.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GUtmk.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficLink.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/geom.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPolygon.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GVisibleRegion.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapLabelOption.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapLabelInfo.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficManager.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMarker.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/MapCommands.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GLatLngBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GKatechBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GUtmkBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapOptions.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/gmaps.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GViewpoint.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapView.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GInfoWindow.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GUIInfoWindow.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GOverlay.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Modules/module.modulemap"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "7b41cb4dedce8626c65239d7acddd024"
