@@ -21,6 +21,10 @@
 		2664C95725BF018B005EA868 /* MapShapeOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95625BF018B005EA868 /* MapShapeOverlayViewController.swift */; };
 		2664C95925BF01B0005EA868 /* MarkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95825BF01B0005EA868 /* MarkerViewController.swift */; };
 		2664C95B25BF01CF005EA868 /* PathOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2664C95A25BF01CF005EA868 /* PathOverlayViewController.swift */; };
+		266E34CA25C1A4C400CE1C38 /* PathPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E34C925C1A4C400CE1C38 /* PathPoints.swift */; };
+		266E34CD25C1B9AE00CE1C38 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E34CC25C1B9AE00CE1C38 /* LocationViewController.swift */; };
+		266E34CF25C1B9F600CE1C38 /* TrafficViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E34CE25C1B9F600CE1C38 /* TrafficViewController.swift */; };
+		266E34D125C1BA0B00CE1C38 /* SymbolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266E34D025C1BA0B00CE1C38 /* SymbolViewController.swift */; };
 		26B6856525BD9CAC0006BC31 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6856425BD9CAC0006BC31 /* DemoCell.swift */; };
 		26B6856A25BD9DC20006BC31 /* DemoTestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6856925BD9DC20006BC31 /* DemoTestModel.swift */; };
 		26B6857025BDA9470006BC31 /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B6856F25BDA9470006BC31 /* AttributedText.swift */; };
@@ -96,6 +100,10 @@
 		2664C95625BF018B005EA868 /* MapShapeOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapShapeOverlayViewController.swift; sourceTree = "<group>"; };
 		2664C95825BF01B0005EA868 /* MarkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerViewController.swift; sourceTree = "<group>"; };
 		2664C95A25BF01CF005EA868 /* PathOverlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathOverlayViewController.swift; sourceTree = "<group>"; };
+		266E34C925C1A4C400CE1C38 /* PathPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathPoints.swift; sourceTree = "<group>"; };
+		266E34CC25C1B9AE00CE1C38 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		266E34CE25C1B9F600CE1C38 /* TrafficViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficViewController.swift; sourceTree = "<group>"; };
+		266E34D025C1BA0B00CE1C38 /* SymbolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolViewController.swift; sourceTree = "<group>"; };
 		26B6856425BD9CAC0006BC31 /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
 		26B6856925BD9DC20006BC31 /* DemoTestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTestModel.swift; sourceTree = "<group>"; };
 		26B6856F25BDA9470006BC31 /* AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedText.swift; sourceTree = "<group>"; };
@@ -216,8 +224,19 @@
 				2664C95625BF018B005EA868 /* MapShapeOverlayViewController.swift */,
 				2664C95825BF01B0005EA868 /* MarkerViewController.swift */,
 				2664C95A25BF01CF005EA868 /* PathOverlayViewController.swift */,
+				266E34C925C1A4C400CE1C38 /* PathPoints.swift */,
 			);
 			path = overlay;
+			sourceTree = "<group>";
+		};
+		266E34CB25C1B99900CE1C38 /* plugin */ = {
+			isa = PBXGroup;
+			children = (
+				266E34CC25C1B9AE00CE1C38 /* LocationViewController.swift */,
+				266E34CE25C1B9F600CE1C38 /* TrafficViewController.swift */,
+				266E34D025C1BA0B00CE1C38 /* SymbolViewController.swift */,
+			);
+			path = plugin;
 			sourceTree = "<group>";
 		};
 		26B6856325BD9C9B0006BC31 /* base */ = {
@@ -265,6 +284,7 @@
 		6845D47D25BE4FAB0088549A /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				266E34CB25C1B99900CE1C38 /* plugin */,
 				2664C95325BF0150005EA868 /* overlay */,
 				2664C94E25BEFFC4005EA868 /* style */,
 				680A82CF25BE9AEC008E3009 /* camera */,
@@ -432,15 +452,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2664C95725BF018B005EA868 /* MapShapeOverlayViewController.swift in Sources */,
+				266E34CA25C1A4C400CE1C38 /* PathPoints.swift in Sources */,
 				26B6857025BDA9470006BC31 /* AttributedText.swift in Sources */,
 				680A82D525BEA6B2008E3009 /* GestureMapViewController.swift in Sources */,
 				680A82D125BE9AF9008E3009 /* CameraViewController.swift in Sources */,
+				266E34D125C1BA0B00CE1C38 /* SymbolViewController.swift in Sources */,
 				680A82CC25BE8975008E3009 /* MapViewStoryBoardViewController.swift in Sources */,
 				2664C95525BF0168005EA868 /* InfoWindowViewController.swift in Sources */,
+				266E34CD25C1B9AE00CE1C38 /* LocationViewController.swift in Sources */,
 				2664C95925BF01B0005EA868 /* MarkerViewController.swift in Sources */,
 				26252CD825BD93C700EC7E2D /* ViewController.swift in Sources */,
 				2664C95025BEFFD7005EA868 /* MapLayerViewController.swift in Sources */,
 				26B6856A25BD9DC20006BC31 /* DemoTestModel.swift in Sources */,
+				266E34CF25C1B9F600CE1C38 /* TrafficViewController.swift in Sources */,
 				2664C95225BEFFFF005EA868 /* MapStyleViewController.swift in Sources */,
 				2664C95B25BF01CF005EA868 /* PathOverlayViewController.swift in Sources */,
 				26252CD425BD93C700EC7E2D /* AppDelegate.swift in Sources */,

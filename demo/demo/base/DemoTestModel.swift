@@ -36,5 +36,8 @@ func testModelList() -> Dictionary<String, Array<DemoTestModel>> {
         DemoTestModel(title: "Marker", description: "marker overlay", identifier: "markerOVerlayMap"),
         DemoTestModel(title: "Path", description: "path overlay", identifier: "pathOverlayMap")
     ]
+    testSet["5. plugin"] = [
+        DemoTestModel(title: "Location", description: "User location", identifier: "locationMap")
+    ]
     return testSet
 }
