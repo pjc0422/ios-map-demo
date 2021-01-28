@@ -326,6 +326,22 @@ SWIFT_CLASS("_TtC4demo24InfoWindowViewController")
 - (void)modeCustom;
 @end
 
+@class UIImageView;
+
+SWIFT_CLASS("_TtC4demo22LocationViewController")
+@interface LocationViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified compassImage;
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface LocationViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
+- (void)mapView:(GMapView * _Null_unspecified)mapView didChangeViewpoint:(GViewpoint * _Null_unspecified)viewpoint withGesture:(BOOL)gesture;
+@end
+
 
 SWIFT_CLASS("_TtC4demo22MapLayerViewController")
 @interface MapLayerViewController : BaseViewController
@@ -347,12 +363,26 @@ SWIFT_CLASS("_TtC4demo22MapLayerViewController")
 @end
 
 
-SWIFT_CLASS("_TtC4demo29MapShareOverlayViewController")
-@interface MapShareOverlayViewController : BaseViewController
+SWIFT_CLASS("_TtC4demo29MapShapeOverlayViewController")
+@interface MapShapeOverlayViewController : BaseViewController
 @property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
 - (void)viewDidLoad;
+- (void)showMenu;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface MapShapeOverlayViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
+- (void)mapView:(GMapView * _Null_unspecified)mapView didTapAtCoord:(id <GCoord> _Null_unspecified)coord;
+@end
+
+
+@interface MapShapeOverlayViewController (SWIFT_EXTENSION(demo))
+- (void)clearOverlay;
+- (void)circleOverlay;
+- (void)polygonOverlay;
+- (void)polylineOverlay;
 @end
 
 
@@ -417,18 +447,26 @@ SWIFT_CLASS("_TtC4demo20MarkerViewController")
 @end
 
 
+@class UISlider;
 
 SWIFT_CLASS("_TtC4demo25PathOverlayViewController")
 @interface PathOverlayViewController : BaseViewController
 @property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified routeSeekbar;
 - (void)viewDidLoad;
+- (void)showMenu;
+- (IBAction)valueChanged:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@interface PathOverlayViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
-- (void)mapView:(GMapView * _Null_unspecified)mapView didTapAtCoord:(id <GCoord> _Null_unspecified)coord;
+@interface PathOverlayViewController (SWIFT_EXTENSION(demo))
+- (void)showPath;
+- (void)removePath;
+- (void)showArrow;
+- (void)showRoute;
+- (void)showTraffic;
 @end
 
 @class UIWindow;
@@ -444,6 +482,20 @@ SWIFT_CLASS("_TtC4demo13SceneDelegate")
 - (void)sceneWillEnterForeground:(UIScene * _Nonnull)scene;
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC4demo20SymbolViewController")
+@interface SymbolViewController : BaseViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC4demo21TrafficViewController")
+@interface TrafficViewController : BaseViewController
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITableView;

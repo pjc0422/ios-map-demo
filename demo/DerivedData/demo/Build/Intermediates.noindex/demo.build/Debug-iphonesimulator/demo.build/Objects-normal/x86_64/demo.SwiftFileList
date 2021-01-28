@@ -1,13 +1,17 @@
 /Users/kt/ios-map-demo/demo/demo/demo/overlay/MapShapeOverlayViewController.swift
+/Users/kt/ios-map-demo/demo/demo/demo/overlay/PathPoints.swift
 /Users/kt/ios-map-demo/demo/demo/utils/AttributedText.swift
 /Users/kt/ios-map-demo/demo/demo/demo/camera/GestureMapViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/camera/CameraViewController.swift
+/Users/kt/ios-map-demo/demo/demo/demo/plugin/SymbolViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/start/MapViewStoryBoardViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/overlay/InfoWindowViewController.swift
+/Users/kt/ios-map-demo/demo/demo/demo/plugin/LocationViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/overlay/MarkerViewController.swift
 /Users/kt/ios-map-demo/demo/demo/ViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/style/MapLayerViewController.swift
 /Users/kt/ios-map-demo/demo/demo/base/DemoTestModel.swift
+/Users/kt/ios-map-demo/demo/demo/demo/plugin/TrafficViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/style/MapStyleViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/overlay/PathOverlayViewController.swift
 /Users/kt/ios-map-demo/demo/demo/AppDelegate.swift

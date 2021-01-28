@@ -4,8 +4,8 @@
 <array>
 	<string>XCTest</string>
 	<string>geom</string>
-	<string>demo</string>
 	<string>Foundation</string>
+	<string>demo</string>
 	<string>UIKit</string>
 	<string>gmaps</string>
 </array>

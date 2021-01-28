@@ -1,0 +1,548 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SymbolViewController"
+provides-nominal:
+- "4demo20SymbolViewControllerC"
+provides-member:
+- ["4demo20SymbolViewControllerC", ""]
+provides-dynamic-lookup:
+- "mapView"
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseViewController"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "FloatLiteralType"
+- "GMapLabelInfo"
+- !private "GMapLabelOption"
+- "GMapView"
+- "GMapViewDelegate"
+- !private "IntegerLiteralType"
+- !private "StringLiteralType"
+- "SymbolViewController"
+- !private "mapView"
+- !private "print"
+depends-member:
+- ["4demo18BaseViewControllerC", "Bool"]
+- ["4demo18BaseViewControllerC", "GMapLabelInfo"]
+- !private ["4demo18BaseViewControllerC", "GMapLabelOption"]
+- ["4demo18BaseViewControllerC", "GMapView"]
+- ["4demo18BaseViewControllerC", ""]
+- ["4demo18BaseViewControllerC", "init"]
+- ["4demo18BaseViewControllerC", "mapView"]
+- !private ["4demo18BaseViewControllerC", "print"]
+- ["4demo18BaseViewControllerC", "viewDidLoad"]
+- !private ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "setGMapLabelFocus"]
+- !private ["So15CALayerDelegateP", "setGMapLabelFocusOption"]
+- !private ["s7CVarArgP", "GMapLabelOption"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "initMode"]
+- !private ["s7CVarArgP", "labelId"]
+- !private ["s7CVarArgP", "labelName"]
+- ["s7CVarArgP", "mapView"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "setGMapLabelFocus"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "GMapLabelOption"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "initMode"]
+- !private ["s28CustomDebugStringConvertibleP", "labelId"]
+- !private ["s28CustomDebugStringConvertibleP", "labelName"]
+- ["s28CustomDebugStringConvertibleP", "mapView"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "setGMapLabelFocus"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "labelId"]
+- !private ["s17CustomReflectableP", "labelName"]
+- !private ["s17CustomReflectableP", "setGMapLabelFocus"]
+- !private ["s23CustomStringConvertibleP", "GMapLabelOption"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "initMode"]
+- !private ["s23CustomStringConvertibleP", "labelId"]
+- !private ["s23CustomStringConvertibleP", "labelName"]
+- ["s23CustomStringConvertibleP", "mapView"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "setGMapLabelFocus"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "delegate"]
+- !private ["Se", "labelId"]
+- !private ["Se", "labelName"]
+- !private ["Se", "setGMapLabelFocus"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "delegate"]
+- !private ["SE", "labelId"]
+- !private ["SE", "labelName"]
+- !private ["SE", "setGMapLabelFocus"]
+- !private ["SQ", "GMapLabelOption"]
+- !private ["SQ", "MagnifactionEffect"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "initMode"]
+- !private ["SQ", "labelId"]
+- !private ["SQ", "labelName"]
+- ["SQ", "mapView"]
+- !private ["SQ", "print"]
+- !private ["SQ", "setGMapLabelFocus"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "labelId"]
+- !private ["s23ExpressibleByNilLiteralP", "labelName"]
+- !private ["s23ExpressibleByNilLiteralP", "setGMapLabelFocus"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["So18GMapLabelFocusModeV", "MagnifactionEffect"]
+- !private ["So13GMapLabelInfoC", "labelId"]
+- !private ["So13GMapLabelInfoC", "labelName"]
+- !private ["So15GMapLabelOptionC", "initMode"]
+- !private ["So8GMapViewC", "delegate"]
+- !private ["So8GMapViewC", "setGMapLabelFocus"]
+- !private ["So16GMapViewDelegateP", "GMapLabelOption"]
+- ["So16GMapViewDelegateP", ""]
+- ["So16GMapViewDelegateP", "init"]
+- ["So16GMapViewDelegateP", "mapView"]
+- !private ["So16GMapViewDelegateP", "print"]
+- ["So16GMapViewDelegateP", "viewDidLoad"]
+- !private ["SH", "GMapLabelOption"]
+- !private ["SH", "MagnifactionEffect"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "initMode"]
+- !private ["SH", "labelId"]
+- !private ["SH", "labelName"]
+- ["SH", "mapView"]
+- !private ["SH", "print"]
+- !private ["SH", "setGMapLabelFocus"]
+- !private ["SH", "viewDidLoad"]
+- ["So8NSCodingP", "Bool"]
+- ["So8NSCodingP", "GMapLabelInfo"]
+- !private ["So8NSCodingP", "GMapLabelOption"]
+- ["So8NSCodingP", "GMapView"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "addMenuButton"]
+- !private ["So8NSCodingP", "delegate"]
+- ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "mapView"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "setGMapLabelFocus"]
+- !private ["So8NSCodingP", "setGMapLabelFocusOption"]
+- ["So8NSCodingP", "setNavigationTitle"]
+- ["So8NSCodingP", "showAction"]
+- ["So8NSCodingP", "showAlert"]
+- ["So8NSCodingP", "showMenu"]
+- ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", "Bool"]
+- ["So26NSExtensionRequestHandlingP", "GMapLabelInfo"]
+- !private ["So26NSExtensionRequestHandlingP", "GMapLabelOption"]
+- ["So26NSExtensionRequestHandlingP", "GMapView"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "addMenuButton"]
+- ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "mapView"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- ["So26NSExtensionRequestHandlingP", "setNavigationTitle"]
+- ["So26NSExtensionRequestHandlingP", "showAction"]
+- ["So26NSExtensionRequestHandlingP", "showAlert"]
+- ["So26NSExtensionRequestHandlingP", "showMenu"]
+- ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "GMapLabelInfo"]
+- !private ["So8NSObjectC", "GMapLabelOption"]
+- ["So8NSObjectC", "GMapView"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "initMode"]
+- !private ["So8NSObjectC", "labelId"]
+- !private ["So8NSObjectC", "labelName"]
+- ["So8NSObjectC", "mapView"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "setGMapLabelFocus"]
+- !private ["So8NSObjectC", "setGMapLabelFocusOption"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "GMapLabelInfo"]
+- !private ["So8NSObjectP", "GMapLabelOption"]
+- ["So8NSObjectP", "GMapView"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "addMenuButton"]
+- !private ["So8NSObjectP", "delegate"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "initMode"]
+- !private ["So8NSObjectP", "labelId"]
+- !private ["So8NSObjectP", "labelName"]
+- ["So8NSObjectP", "mapView"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "setGMapLabelFocus"]
+- !private ["So8NSObjectP", "setGMapLabelFocusOption"]
+- ["So8NSObjectP", "setNavigationTitle"]
+- ["So8NSObjectP", "showAction"]
+- ["So8NSObjectP", "showAlert"]
+- ["So8NSObjectP", "showMenu"]
+- ["So8NSObjectP", "viewDidLoad"]
+- !private ["Sq", "delegate"]
+- !private ["Sq", "labelId"]
+- !private ["Sq", "labelName"]
+- !private ["Sq", "setGMapLabelFocus"]
+- !private ["SY", "MagnifactionEffect"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- ["4demo20SymbolViewControllerC", "Bool"]
+- ["4demo20SymbolViewControllerC", "GMapLabelInfo"]
+- !private ["4demo20SymbolViewControllerC", "GMapLabelOption"]
+- ["4demo20SymbolViewControllerC", "GMapView"]
+- ["4demo20SymbolViewControllerC", ""]
+- ["4demo20SymbolViewControllerC", "deinit"]
+- ["4demo20SymbolViewControllerC", "init"]
+- ["4demo20SymbolViewControllerC", "mapView"]
+- !private ["4demo20SymbolViewControllerC", "print"]
+- ["4demo20SymbolViewControllerC", "viewDidLoad"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "setGMapLabelFocus"]
+- !private ["So29UIAccessibilityIdentificationP", "setGMapLabelFocusOption"]
+- !private ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "setGMapLabelFocus"]
+- !private ["So12UIAppearanceP", "setGMapLabelFocusOption"]
+- ["So21UIAppearanceContainerP", "Bool"]
+- ["So21UIAppearanceContainerP", "GMapLabelInfo"]
+- !private ["So21UIAppearanceContainerP", "GMapLabelOption"]
+- ["So21UIAppearanceContainerP", "GMapView"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "addMenuButton"]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "mapView"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "setGMapLabelFocus"]
+- !private ["So21UIAppearanceContainerP", "setGMapLabelFocusOption"]
+- ["So21UIAppearanceContainerP", "setNavigationTitle"]
+- ["So21UIAppearanceContainerP", "showAction"]
+- ["So21UIAppearanceContainerP", "showAlert"]
+- ["So21UIAppearanceContainerP", "showMenu"]
+- ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", "Bool"]
+- ["So18UIContentContainerP", "GMapLabelInfo"]
+- !private ["So18UIContentContainerP", "GMapLabelOption"]
+- ["So18UIContentContainerP", "GMapView"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "addMenuButton"]
+- ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "mapView"]
+- !private ["So18UIContentContainerP", "print"]
+- ["So18UIContentContainerP", "setNavigationTitle"]
+- ["So18UIContentContainerP", "showAction"]
+- ["So18UIContentContainerP", "showAlert"]
+- ["So18UIContentContainerP", "showMenu"]
+- ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "setGMapLabelFocus"]
+- !private ["So17UICoordinateSpaceP", "setGMapLabelFocusOption"]
+- !private ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "setGMapLabelFocus"]
+- !private ["So13UIDynamicItemP", "setGMapLabelFocusOption"]
+- ["So18UIFocusEnvironmentP", "Bool"]
+- ["So18UIFocusEnvironmentP", "GMapLabelInfo"]
+- !private ["So18UIFocusEnvironmentP", "GMapLabelOption"]
+- ["So18UIFocusEnvironmentP", "GMapView"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "addMenuButton"]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "mapView"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "setGMapLabelFocus"]
+- !private ["So18UIFocusEnvironmentP", "setGMapLabelFocusOption"]
+- ["So18UIFocusEnvironmentP", "setNavigationTitle"]
+- ["So18UIFocusEnvironmentP", "showAction"]
+- ["So18UIFocusEnvironmentP", "showAlert"]
+- ["So18UIFocusEnvironmentP", "showMenu"]
+- ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "setGMapLabelFocus"]
+- !private ["So11UIFocusItemP", "setGMapLabelFocusOption"]
+- !private ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "setGMapLabelFocus"]
+- !private ["So20UIFocusItemContainerP", "setGMapLabelFocusOption"]
+- !private ["So24UILargeContentViewerItemP", ""]
+- !private ["So24UILargeContentViewerItemP", "delegate"]
+- !private ["So24UILargeContentViewerItemP", "setGMapLabelFocus"]
+- !private ["So24UILargeContentViewerItemP", "setGMapLabelFocusOption"]
+- ["So30UIPasteConfigurationSupportingP", "Bool"]
+- ["So30UIPasteConfigurationSupportingP", "GMapLabelInfo"]
+- !private ["So30UIPasteConfigurationSupportingP", "GMapLabelOption"]
+- ["So30UIPasteConfigurationSupportingP", "GMapView"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "addMenuButton"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "mapView"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "setGMapLabelFocus"]
+- !private ["So30UIPasteConfigurationSupportingP", "setGMapLabelFocusOption"]
+- ["So30UIPasteConfigurationSupportingP", "setNavigationTitle"]
+- ["So30UIPasteConfigurationSupportingP", "showAction"]
+- ["So30UIPasteConfigurationSupportingP", "showAlert"]
+- ["So30UIPasteConfigurationSupportingP", "showMenu"]
+- ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "GMapLabelInfo"]
+- !private ["So11UIResponderC", "GMapLabelOption"]
+- ["So11UIResponderC", "GMapView"]
+- ["So11UIResponderC", ""]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "mapView"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "setGMapLabelFocus"]
+- !private ["So11UIResponderC", "setGMapLabelFocusOption"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", "Bool"]
+- ["So30UIResponderStandardEditActionsP", "GMapLabelInfo"]
+- !private ["So30UIResponderStandardEditActionsP", "GMapLabelOption"]
+- ["So30UIResponderStandardEditActionsP", "GMapView"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "addMenuButton"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "mapView"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "setGMapLabelFocus"]
+- !private ["So30UIResponderStandardEditActionsP", "setGMapLabelFocusOption"]
+- ["So30UIResponderStandardEditActionsP", "setNavigationTitle"]
+- ["So30UIResponderStandardEditActionsP", "showAction"]
+- ["So30UIResponderStandardEditActionsP", "showAlert"]
+- ["So30UIResponderStandardEditActionsP", "showMenu"]
+- ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", "Bool"]
+- ["So16UIStateRestoringP", "GMapLabelInfo"]
+- !private ["So16UIStateRestoringP", "GMapLabelOption"]
+- ["So16UIStateRestoringP", "GMapView"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "addMenuButton"]
+- ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "mapView"]
+- !private ["So16UIStateRestoringP", "print"]
+- ["So16UIStateRestoringP", "setNavigationTitle"]
+- ["So16UIStateRestoringP", "showAction"]
+- ["So16UIStateRestoringP", "showAlert"]
+- ["So16UIStateRestoringP", "showMenu"]
+- ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", "Bool"]
+- ["So18UITraitEnvironmentP", "GMapLabelInfo"]
+- !private ["So18UITraitEnvironmentP", "GMapLabelOption"]
+- ["So18UITraitEnvironmentP", "GMapView"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "addMenuButton"]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "mapView"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "setGMapLabelFocus"]
+- !private ["So18UITraitEnvironmentP", "setGMapLabelFocusOption"]
+- ["So18UITraitEnvironmentP", "setNavigationTitle"]
+- ["So18UITraitEnvironmentP", "showAction"]
+- ["So18UITraitEnvironmentP", "showAlert"]
+- ["So18UITraitEnvironmentP", "showMenu"]
+- ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", "Bool"]
+- ["So23UIUserActivityRestoringP", "GMapLabelInfo"]
+- !private ["So23UIUserActivityRestoringP", "GMapLabelOption"]
+- ["So23UIUserActivityRestoringP", "GMapView"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "addMenuButton"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "mapView"]
+- !private ["So23UIUserActivityRestoringP", "print"]
+- !private ["So23UIUserActivityRestoringP", "setGMapLabelFocus"]
+- !private ["So23UIUserActivityRestoringP", "setGMapLabelFocusOption"]
+- ["So23UIUserActivityRestoringP", "setNavigationTitle"]
+- ["So23UIUserActivityRestoringP", "showAction"]
+- ["So23UIUserActivityRestoringP", "showAlert"]
+- ["So23UIUserActivityRestoringP", "showMenu"]
+- ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So6UIViewC", ""]
+- !private ["So6UIViewC", "delegate"]
+- !private ["So6UIViewC", "setGMapLabelFocus"]
+- !private ["So6UIViewC", "setGMapLabelFocusOption"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "GMapLabelInfo"]
+- !private ["So16UIViewControllerC", "GMapLabelOption"]
+- ["So16UIViewControllerC", "GMapView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "mapView"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GMapLabelOption"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "initMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "labelId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "labelName"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setGMapLabelFocus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GMapLabelOption"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "initMode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "labelId"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "labelName"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "mapView"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "setGMapLabelFocus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "labelId"]
+- !private ["s21_ObjectiveCBridgeableP", "labelName"]
+- !private ["s21_ObjectiveCBridgeableP", "setGMapLabelFocus"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "setGMapLabelFocus"]
+depends-nominal:
+- "4demo18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "So18GMapLabelFocusModeV"
+- !private "So13GMapLabelInfoC"
+- !private "So15GMapLabelOptionC"
+- !private "So8GMapViewC"
+- "So16GMapViewDelegateP"
+- "SH"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- !private "SY"
+- !private "s27StringInterpolationProtocolP"
+- "4demo20SymbolViewControllerC"
+- !private "s16TextOutputStreamP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapShared.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GCoord.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GImage.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/KeyStorage.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GViewpointChange.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GCircle.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedCircle.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedLine.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPolyline.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GRoute.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficRoute.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GLatLng.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GKatech.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPath.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GDashedPath.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GUtmk.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficLink.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/geom.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GPolygon.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GVisibleRegion.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapLabelOption.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapLabelInfo.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GTrafficManager.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMarker.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/MapCommands.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GLatLngBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GKatechBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Headers/GUtmkBounds.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapOptions.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/gmaps.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GViewpoint.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GMapView.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GInfoWindow.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GUIInfoWindow.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GOverlay.h"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Headers/GGroundOverlay.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/kt/ios-map-demo/demo/frameworks/geom.framework/Modules/module.modulemap"
+- "/Users/kt/ios-map-demo/demo/frameworks/gmaps.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "49d8e77578cd6a25c84fef798f98ce4c"
