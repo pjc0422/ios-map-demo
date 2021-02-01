@@ -270,7 +270,6 @@ depends-member:
 - ["So21UIApplicationDelegateP", "gisKey"]
 - ["So21UIApplicationDelegateP", "init"]
 - ["So21UIApplicationDelegateP", "window"]
-- ["So18UIFocusEnvironmentP", ""]
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
 - !private ["So30UIPasteConfigurationSupportingP", "Bundle"]
 - ["So30UIPasteConfigurationSupportingP", "ConnectionOptions"]
@@ -383,7 +382,6 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "window"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "init"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
@@ -461,7 +459,6 @@ depends-nominal:
 - "s20TextOutputStreamableP"
 - "So13UIApplicationC"
 - "So21UIApplicationDelegateP"
-- "So18UIFocusEnvironmentP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
 - "So30UIResponderStandardEditActionsP"
@@ -471,7 +468,6 @@ depends-nominal:
 - "So23UIUserActivityRestoringP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "10Foundation27_KeyValueCodingAndObservingP"

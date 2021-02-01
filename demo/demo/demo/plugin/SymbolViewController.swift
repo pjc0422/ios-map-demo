@@ -24,12 +24,12 @@ class SymbolViewController: BaseViewController {
 
 extension SymbolViewController: GMapViewDelegate {
     func mapView(_ mapView: GMapView!, didTap info: GMapLabelInfo!) -> Bool {
-        print("label name: \(info.labelName), id:\(info.labelId)")
+        print("label name: \(String(describing: info.labelName)), id:\(String(describing: info.labelId))")
         return false
     }
     
     func mapView(_ mapView: GMapView!, didLongPress info: GMapLabelInfo!) -> Bool {
-        print("label name: \(info.labelName), id:\(info.labelId)")
+        print("label name: \(String(describing: info.labelName)), id:\(String(describing: info.labelId))")
         return false
     }
 }

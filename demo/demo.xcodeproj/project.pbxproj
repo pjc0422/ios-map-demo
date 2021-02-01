@@ -38,6 +38,8 @@
 		680A82EA25C138B0008E3009 /* night_style_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 680A82E625C138AF008E3009 /* night_style_icon.png */; };
 		680A82EB25C138B0008E3009 /* day_style_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 680A82E725C138AF008E3009 /* day_style_icon.png */; };
 		680A82EC25C138B0008E3009 /* night_style_icon.txt in Resources */ = {isa = PBXBuildFile; fileRef = 680A82E825C138B0008E3009 /* night_style_icon.txt */; };
+		680A82F625C7808F008E3009 /* LocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680A82F525C7808F008E3009 /* LocationProvider.swift */; };
+		680A82FA25C78107008E3009 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 680A82F925C78107008E3009 /* CoreLocation.framework */; };
 		6845D47F25BE4FBB0088549A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845D47E25BE4FBB0088549A /* BaseViewController.swift */; };
 		6845D48525BE51250088549A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6845D48425BE51250088549A /* MapViewController.swift */; };
 		6845D48C25BE65150088549A /* geom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6845D48A25BE65150088549A /* geom.framework */; };
@@ -116,6 +118,8 @@
 		680A82E625C138AF008E3009 /* night_style_icon.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = night_style_icon.png; sourceTree = "<group>"; };
 		680A82E725C138AF008E3009 /* day_style_icon.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = day_style_icon.png; sourceTree = "<group>"; };
 		680A82E825C138B0008E3009 /* night_style_icon.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = night_style_icon.txt; sourceTree = "<group>"; };
+		680A82F525C7808F008E3009 /* LocationProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationProvider.swift; sourceTree = "<group>"; };
+		680A82F925C78107008E3009 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6845D47E25BE4FBB0088549A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		6845D48425BE51250088549A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		6845D48A25BE65150088549A /* geom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = geom.framework; path = frameworks/geom.framework; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				680A82FA25C78107008E3009 /* CoreLocation.framework in Frameworks */,
 				6845D48C25BE65150088549A /* geom.framework in Frameworks */,
 				6845D48E25BE65150088549A /* gmaps.framework in Frameworks */,
 			);
@@ -232,6 +237,7 @@
 			children = (
 				266E34CE25C1B9F600CE1C38 /* TrafficViewController.swift */,
 				266E34D025C1BA0B00CE1C38 /* SymbolViewController.swift */,
+				680A82F525C7808F008E3009 /* LocationProvider.swift */,
 			);
 			path = plugin;
 			sourceTree = "<group>";
@@ -302,6 +308,7 @@
 		6845D48925BE65140088549A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				680A82F925C78107008E3009 /* CoreLocation.framework */,
 				6845D48A25BE65150088549A /* geom.framework */,
 				6845D48B25BE65150088549A /* gmaps.framework */,
 			);
@@ -454,6 +461,7 @@
 				680A82D525BEA6B2008E3009 /* GestureMapViewController.swift in Sources */,
 				680A82D125BE9AF9008E3009 /* CameraViewController.swift in Sources */,
 				266E34D125C1BA0B00CE1C38 /* SymbolViewController.swift in Sources */,
+				680A82F625C7808F008E3009 /* LocationProvider.swift in Sources */,
 				680A82CC25BE8975008E3009 /* MapViewStoryBoardViewController.swift in Sources */,
 				2664C95525BF0168005EA868 /* InfoWindowViewController.swift in Sources */,
 				2664C95925BF01B0005EA868 /* MarkerViewController.swift in Sources */,

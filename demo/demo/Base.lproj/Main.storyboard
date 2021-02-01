@@ -388,7 +388,7 @@
         <!--Traffic View Controller-->
         <scene sceneID="HGO-zQ-idT">
             <objects>
-                <viewController id="hgm-rx-oxY" customClass="TrafficViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="trafficMap" id="hgm-rx-oxY" customClass="TrafficViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="csn-Sc-QI5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -418,7 +418,7 @@
         <!--Symbol View Controller-->
         <scene sceneID="XdU-LX-mBQ">
             <objects>
-                <viewController id="7JH-Un-lPj" customClass="SymbolViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="symbolMap" id="7JH-Un-lPj" customClass="SymbolViewController" customModule="demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vKH-7H-rUC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -188,7 +188,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreLocation;
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 @import gmaps;
 #endif
@@ -326,20 +328,20 @@ SWIFT_CLASS("_TtC4demo24InfoWindowViewController")
 - (void)modeCustom;
 @end
 
-@class UIImageView;
 
-SWIFT_CLASS("_TtC4demo22LocationViewController")
-@interface LocationViewController : BaseViewController
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified compassImage;
-@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC4demo16LocationProvider")
+@interface LocationProvider : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class CLLocationManager;
+@class CLLocation;
 
-@interface LocationViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
-- (void)mapView:(GMapView * _Null_unspecified)mapView didChangeViewpoint:(GViewpoint * _Null_unspecified)viewpoint withGesture:(BOOL)gesture;
+@interface LocationProvider (SWIFT_EXTENSION(demo)) <CLLocationManagerDelegate>
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 @end
 
 
@@ -487,15 +489,32 @@ SWIFT_CLASS("_TtC4demo13SceneDelegate")
 
 SWIFT_CLASS("_TtC4demo20SymbolViewController")
 @interface SymbolViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
+@interface SymbolViewController (SWIFT_EXTENSION(demo)) <GMapViewDelegate>
+- (BOOL)mapView:(GMapView * _Null_unspecified)mapView didTapLabelInfo:(GMapLabelInfo * _Null_unspecified)info SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)mapView:(GMapView * _Null_unspecified)mapView didLongPressLabelInfo:(GMapLabelInfo * _Null_unspecified)info SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
 SWIFT_CLASS("_TtC4demo21TrafficViewController")
 @interface TrafficViewController : BaseViewController
+@property (nonatomic, weak) IBOutlet GMapView * _Null_unspecified mapView;
+- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class NSNumber;
+
+@interface TrafficViewController (SWIFT_EXTENSION(demo)) <GTrafficLayerAdaptor>
+- (GTrafficStateRequestType)setTypeForRequestSpeedToState SWIFT_WARN_UNUSED_RESULT;
+- (GTrafficState)speedToState:(NSNumber * _Null_unspecified)typeValue speed:(NSNumber * _Null_unspecified)speed SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UITableView;

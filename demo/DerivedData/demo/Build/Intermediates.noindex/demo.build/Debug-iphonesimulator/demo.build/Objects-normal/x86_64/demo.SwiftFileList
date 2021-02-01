@@ -4,6 +4,7 @@
 /Users/kt/ios-map-demo/demo/demo/demo/camera/GestureMapViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/camera/CameraViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/plugin/SymbolViewController.swift
+/Users/kt/ios-map-demo/demo/demo/demo/plugin/LocationProvider.swift
 /Users/kt/ios-map-demo/demo/demo/demo/start/MapViewStoryBoardViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/overlay/InfoWindowViewController.swift
 /Users/kt/ios-map-demo/demo/demo/demo/overlay/MarkerViewController.swift

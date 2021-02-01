@@ -12,7 +12,8 @@ class ViewController: BaseViewController {
     
     @IBOutlet weak var demoListView: UITableView!
     
-    let demoList:Dictionary<String, Array<DemoTestModel>> = testModelList()
+    var demoList:Dictionary<String, Array<DemoTestModel>> = testModelList()
+    var keySet: [String] = testKeySet()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +28,7 @@ class ViewController: BaseViewController {
 
     func getDemoModel(indexPath: IndexPath) -> DemoTestModel? {
         let section = indexPath.section
-        let key = Array(demoList.keys) [section]
+        let key = keySet[section]
         if let value = demoList[key] {
             return value[indexPath.row]
         }
@@ -38,11 +39,11 @@ class ViewController: BaseViewController {
 //MARK: - UITableViewDataSource
 extension ViewController: UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
-        return demoList.keys.count
+        return keySet.count
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let key = Array(demoList.keys)[section]
+        let key = keySet[section]
         
         if let value = demoList[key] {
             return value.count
@@ -59,7 +60,7 @@ extension ViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let section = section
-        let key = Array(demoList.keys) [section]
+        let key = keySet[section]
         
         let frame = CGRect.init(origin: view.frame.origin, size: CGSize(width: view.frame.size.width, height: 30))
         let view = UIView.init(frame: frame)

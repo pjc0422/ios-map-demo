@@ -2,6 +2,7 @@
 provides-top-level:
 - "DemoTestModel"
 - "testModelList"
+- "testKeySet"
 provides-nominal:
 - "4demo13DemoTestModelV"
 provides-member:
@@ -14,6 +15,7 @@ depends-top-level:
 - "Dictionary"
 - "String"
 - !private "StringLiteralType"
+- "testKeySet"
 - "testModelList"
 depends-member:
 - !private ["s7CVarArgP", "init"]
@@ -142,4 +144,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9f520a06ae0f518867c503d21abd67f4"
+interface-hash: "57d3f8a9740defc38338f13a47c66ed0"

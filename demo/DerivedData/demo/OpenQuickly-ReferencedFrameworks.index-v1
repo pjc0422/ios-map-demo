@@ -4,6 +4,7 @@
 <array>
 	<string>XCTest</string>
 	<string>geom</string>
+	<string>CoreLocation</string>
 	<string>Foundation</string>
 	<string>demo</string>
 	<string>UIKit</string>

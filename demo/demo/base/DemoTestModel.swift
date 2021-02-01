@@ -37,7 +37,15 @@ func testModelList() -> Dictionary<String, Array<DemoTestModel>> {
         DemoTestModel(title: "Path", description: "path overlay", identifier: "pathOverlayMap")
     ]
     testSet["5. plugin"] = [
-        DemoTestModel(title: "Location", description: "User location", identifier: "locationMap")
+//        DemoTestModel(title: "Location", description: "User location", identifier: "locationMap"),
+        DemoTestModel(title: "Symbol", description: "symbol tap", identifier: "symbolMap"),
+        DemoTestModel(title: "Traffic", description: "Road traffic", identifier: "trafficMap")
     ]
     return testSet
+}
+
+func testKeySet () -> Array<String> {
+    return [
+        "1. start","2. camera","3. style", "4. overlay", "5. plugin"
+    ]
 }
