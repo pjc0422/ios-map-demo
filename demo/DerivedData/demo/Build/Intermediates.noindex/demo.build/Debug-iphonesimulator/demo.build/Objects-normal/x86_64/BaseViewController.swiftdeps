@@ -285,7 +285,6 @@ depends-member:
 - !private ["So8NSObjectC", "title"]
 - !private ["So8NSObjectC", "view"]
 - ["So8NSObjectP", "NSInteger"]
-- ["So8NSObjectP", "String"]
 - !private ["So8NSObjectP", "UIAlertAction"]
 - !private ["So8NSObjectP", "UIAlertController"]
 - !private ["So8NSObjectP", "UIBarButtonItem"]
